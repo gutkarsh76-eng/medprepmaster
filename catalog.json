@@ -1,0 +1,6261 @@
+[
+  {
+    "filename": "2. Anatomy Qbank.html",
+    "subject": "Anatomy",
+    "category": "Pre-Clinical",
+    "phase": "Phase I",
+    "accent_bg": "bg-emerald-500",
+    "accent_text": "text-emerald-500",
+    "icon": "bone",
+    "total_tests": 63,
+    "total_questions": 1115,
+    "total_duration": 1745,
+    "tests": [
+      {
+        "id": "1_gametogenesis",
+        "title": "1.Gametogenesis",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "2_pre_embryonic_phase_of_development",
+        "title": "2.Pre Embryonic Phase Of Development",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "3_embryonic_phase_of_development",
+        "title": "3.Embryonic Phase Of Development",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "4_placenta__fetal_membranes_and_twinning",
+        "title": "4.Placenta, Fetal Membranes And Twinning",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "5_pharyngeal_arches__skeletal___muscular_systems",
+        "title": "5.Pharyngeal Arches, Skeletal & Muscular Systems",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "6_cardiovascular_and_respiratory_systems",
+        "title": "6.Cardiovascular And Respiratory Systems",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "7_alimentary__hepatobiliary_systems__pancreas_and_spleen",
+        "title": "7.Alimentary, Hepatobiliary Systems, Pancreas And Spleen",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "8_face__nose___palate__eye__ear",
+        "title": "8.Face, Nose & Palate, Eye, Ear",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "9_nervous_system_and_endocrine_glands",
+        "title": "9.Nervous System And Endocrine Glands",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "10_urogenital_system",
+        "title": "10.Urogenital System",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "11_cell_structure__epithelia__glands___connective_tissue",
+        "title": "11.Cell Structure, Epithelia, Glands & Connective Tissue",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "12_bone__cartilage___muscular_tissue",
+        "title": "12.Bone, Cartilage & Muscular Tissue",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "13_nervous_and_endocrine_systems",
+        "title": "13.Nervous And Endocrine Systems",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "14_cardiovascular__lymphatic_and_respiratory_systems",
+        "title": "14.Cardiovascular, Lymphatic And Respiratory Systems",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "15_digestive__hepatobiliary___genitourinary_systems",
+        "title": "15.Digestive, Hepatobiliary & Genitourinary Systems",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "16_skin___special_senses__eye_and_ear",
+        "title": "16.Skin & Special Senses, Eye And Ear",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "17_cranial_nerves",
+        "title": "17.Cranial Nerves",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "18_meninges_and_dural_venous_sinuses",
+        "title": "18.Meninges And Dural Venous Sinuses",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "19_ventricular_system_and_subarachnoid_space",
+        "title": "19.Ventricular System And Subarachnoid Space",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "20_cerebrum",
+        "title": "20.Cerebrum",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "21_white_matter_of_the_brain",
+        "title": "21.White Matter Of The Brain",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "22_basal_ganglia_and_limbic_system",
+        "title": "22.Basal Ganglia And Limbic System",
+        "num_questions": 6,
+        "duration": 16,
+        "total_marks": 24
+      },
+      {
+        "id": "23_diencephalon",
+        "title": "23.Diencephalon",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "24_brainstem",
+        "title": "24.Brainstem",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "25_cerebellum",
+        "title": "25.Cerebellum",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "26_vascular_supply_of_brain",
+        "title": "26.Vascular Supply Of Brain",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "27_spinal_cord",
+        "title": "27.Spinal Cord",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "28_osteology__scalp_and_face",
+        "title": "28.Osteology, Scalp And Face",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "29_deep_fascia_and_triangles_of_the_neck",
+        "title": "29.Deep Fascia And Triangles Of The Neck",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "30_muscles__neurovascular_anatomy_of_head___neck",
+        "title": "30.Muscles, Neurovascular Anatomy Of Head & Neck",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "31_glands_of_the_head_and_neck",
+        "title": "31.Glands Of The Head And Neck",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "32_tongue_and_palate",
+        "title": "32.Tongue And Palate",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "33_pharynx",
+        "title": "33.Pharynx",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "34_larynx",
+        "title": "34.Larynx",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "35_upper_limb_bones_and_joints",
+        "title": "35.Upper Limb Bones And Joints",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "36_fossae_and_spaces_of_the_upper_limb",
+        "title": "36.Fossae And Spaces Of The Upper Limb",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "37_breast",
+        "title": "37.Breast",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "38_brachial_plexus_and_nerves",
+        "title": "38.Brachial Plexus And Nerves",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "39_muscles___upper_limb",
+        "title": "39.Muscles   Upper Limb",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "40_vessels_upper_limb",
+        "title": "40.Vessels Upper Limb",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "41_general_anatomy_of_thorax",
+        "title": "41.General Anatomy Of Thorax",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "42_thoracic_wall",
+        "title": "42.Thoracic Wall",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "43_mediastinum",
+        "title": "43.Mediastinum",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "44_diaphragm",
+        "title": "44.Diaphragm",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "45_heart",
+        "title": "45.Heart",
+        "num_questions": 33,
+        "duration": 43,
+        "total_marks": 132
+      },
+      {
+        "id": "46_lungs_and_pleura",
+        "title": "46.Lungs And Pleura",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "47_anterior_abdominal_wall",
+        "title": "47.Anterior Abdominal Wall",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "48_abdominal_cavity_and_peritoneum",
+        "title": "48.Abdominal Cavity And Peritoneum",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "49_gi_tract",
+        "title": "49.Gi Tract",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "50_hepatobiliary_system__spleen___pancreas",
+        "title": "50.Hepatobiliary System, Spleen & Pancreas",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "51_kub___adrenal_gland",
+        "title": "51.Kub & Adrenal Gland",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "52_internal_and_external_genitalia",
+        "title": "52.Internal And External Genitalia",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "53_pelvis___perineum",
+        "title": "53.Pelvis & Perineum",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "54_bones_of_the_lower_limb",
+        "title": "54.Bones Of The Lower Limb",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "55_joints_of_the_lower_limb",
+        "title": "55.Joints Of The Lower Limb",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "56_muscles_of_the_lower_limb",
+        "title": "56.Muscles Of The Lower Limb",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "57_nerves___vessels_of_lower_limb",
+        "title": "57.Nerves & Vessels Of Lower Limb",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "58_important_structures_of_lower_limb",
+        "title": "58.Important Structures Of Lower Limb",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "59_vertebral_column",
+        "title": "59.Vertebral Column",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "60_bones__joints_and_cartilage",
+        "title": "60.Bones, Joints And Cartilage",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "61_muscles_and_tendons",
+        "title": "61.Muscles And Tendons",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "62_cardiovascular__lymphatic_and_nervous_systems",
+        "title": "62.Cardiovascular, Lymphatic And Nervous Systems",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "63_skin__connective_tissue_and_ligaments",
+        "title": "63.Skin, Connective Tissue And Ligaments",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      }
+    ],
+    "display_name": "Anatomy & Embryology",
+    "description": "Gross anatomy, neuroanatomy, embryology, histology, osteology, and clinical correlations.",
+    "high_yield_topics": [
+      "Neuroanatomy",
+      "Head & Neck",
+      "Abdomen & Pelvis",
+      "Embryology"
+    ],
+    "neet_weightage": "17 MCQs",
+    "fmge_weightage": "17 MCQs"
+  },
+  {
+    "filename": "1. Physiology Qbank.html",
+    "subject": "Physiology",
+    "category": "Pre-Clinical",
+    "phase": "Phase I",
+    "accent_bg": "bg-teal-500",
+    "accent_text": "text-teal-500",
+    "icon": "heart-pulse",
+    "total_tests": 43,
+    "total_questions": 1014,
+    "total_duration": 1444,
+    "tests": [
+      {
+        "id": "1_homeostasis_and_cellular_physiology",
+        "title": "1.Homeostasis And Cellular Physiology",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "2_cellular_messengers___receptors",
+        "title": "2.Cellular Messengers & Receptors",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "3_transport_across_cell_membrane",
+        "title": "3.Transport Across Cell Membrane",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "4_membrane_potentials",
+        "title": "4.Membrane Potentials",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "5_body_fluids",
+        "title": "5.Body Fluids",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "6_physiology_of_nerve",
+        "title": "6.Physiology Of Nerve",
+        "num_questions": 34,
+        "duration": 44,
+        "total_marks": 136
+      },
+      {
+        "id": "7_muscle_physiology_i",
+        "title": "7.Muscle Physiology I",
+        "num_questions": 35,
+        "duration": 45,
+        "total_marks": 140
+      },
+      {
+        "id": "8_muscle_physiology_ii",
+        "title": "8.Muscle Physiology Ii",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "9_synapse_and_junctional_transmission",
+        "title": "9.Synapse And Junctional Transmission",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "10_neurotransmitters",
+        "title": "10.Neurotransmitters",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "11_sensory_receptors",
+        "title": "11.Sensory Receptors",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "12_somatosensory_pathways",
+        "title": "12.Somatosensory Pathways",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "13_special_senses",
+        "title": "13.Special Senses",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "14_motor_physiology___1",
+        "title": "14.Motor Physiology   1",
+        "num_questions": 38,
+        "duration": 48,
+        "total_marks": 152
+      },
+      {
+        "id": "15_motor_physiology___2",
+        "title": "15.Motor Physiology   2",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "16_basal_ganglia_and_cerebellum",
+        "title": "16.Basal Ganglia And Cerebellum",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "17_hypothalamus_and_limbic_system",
+        "title": "17.Hypothalamus And Limbic System",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "18_higher_mental_functions",
+        "title": "18.Higher Mental Functions",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "19_functional_anatomy",
+        "title": "19.Functional Anatomy",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "20_lung_mechanics",
+        "title": "20.Lung Mechanics",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "21_alveolar_gas_exchange",
+        "title": "21.Alveolar Gas Exchange",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "22_gas_transport_in_blood",
+        "title": "22.Gas Transport In Blood",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "23_lung_volumes_and_lung_function_tests",
+        "title": "23.Lung Volumes And Lung Function Tests",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "24_respiratory_adaptations_in_hypoxia__anemia_and_with_pressure_changes",
+        "title": "24.Respiratory Adaptations In Hypoxia, Anemia And With Pressure Changes",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "25_regulation_of_respiration",
+        "title": "25.Regulation Of Respiration",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "26_vascular_system_and_regional_circulation_i",
+        "title": "26.Vascular System And Regional Circulation I",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "27_vascular_system_and_regional_circulation_ii",
+        "title": "27.Vascular System And Regional Circulation Ii",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "28_cardiac_cycle_and_cardiac_output",
+        "title": "28.Cardiac Cycle And Cardiac Output",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "29_electrophysiology_of_the_heart",
+        "title": "29.Electrophysiology Of The Heart",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "30_blood_pressure_and_regulation",
+        "title": "30.Blood Pressure And Regulation",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "31_gastrointestinal_secretion_and_gastrointestinal_hormones",
+        "title": "31.Gastrointestinal Secretion And Gastrointestinal Hormones",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "32_digestion___absorption",
+        "title": "32.Digestion & Absorption",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "33_gi_peristalsis_and_motility",
+        "title": "33.Gi Peristalsis And Motility",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "34_glomerular_filtration_rate__renal_blood_flow__and_renal_clearance",
+        "title": "34.Glomerular Filtration Rate, Renal Blood Flow, And Renal Clearance",
+        "num_questions": 35,
+        "duration": 45,
+        "total_marks": 140
+      },
+      {
+        "id": "35_renal_tubular_functions__urine_concentration_and_dilution",
+        "title": "35.Renal Tubular Functions, Urine Concentration And Dilution",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "36_acid_base_balance__renal_hormones_and_micturition_reflex",
+        "title": "36.Acid Base Balance, Renal Hormones And Micturition Reflex",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "37_pituitary_and_thyroid",
+        "title": "37.Pituitary And Thyroid",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "38_the_pancreas",
+        "title": "38.The Pancreas",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "39_the_adrenals",
+        "title": "39.The Adrenals",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "40_calcium_homeostasis",
+        "title": "40.Calcium Homeostasis",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "41_male_reproductive_physiology",
+        "title": "41.Male Reproductive Physiology",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "42_female_reproductive_physiology",
+        "title": "42.Female Reproductive Physiology",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "43_exercise_physiology",
+        "title": "43.Exercise Physiology",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      }
+    ],
+    "display_name": "Human Physiology",
+    "description": "General physiology, nerve-muscle, CVS, respiratory, renal, endocrinology, and neurophysiology.",
+    "high_yield_topics": [
+      "CVS & Hemodynamics",
+      "Renal Physiology",
+      "Endocrinology",
+      "Respiratory Mechanics"
+    ],
+    "neet_weightage": "17 MCQs",
+    "fmge_weightage": "17 MCQs"
+  },
+  {
+    "filename": "9. Biochemistry Qbank.html",
+    "subject": "Biochemistry",
+    "category": "Pre-Clinical",
+    "phase": "Phase I",
+    "accent_bg": "bg-cyan-500",
+    "accent_text": "text-cyan-500",
+    "icon": "flask",
+    "total_tests": 28,
+    "total_questions": 582,
+    "total_duration": 862,
+    "tests": [
+      {
+        "id": "1_chemistry_of_carbohydrates__amino_sugars_and_mucopolysaccharides",
+        "title": "1.Chemistry Of Carbohydrates, Amino Sugars And Mucopolysaccharides",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "2_glycolysis_and_gluconeogenesis",
+        "title": "2.Glycolysis And Gluconeogenesis",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "3_glycogen_metabolism_and_glycogen_storage_disorders",
+        "title": "3.Glycogen Metabolism And Glycogen Storage Disorders",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "4_hmp_shunt_pathway__fructose___galactose_metabolism",
+        "title": "4.Hmp Shunt Pathway, Fructose , Galactose Metabolism",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "5_etc_and_bioenergetics",
+        "title": "5.Etc And Bioenergetics",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "6_krebs_cycle",
+        "title": "6.Krebs Cycle",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "7_amino_acids__basics",
+        "title": "7.Amino Acids  Basics",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "8_amino_acid__metabolism",
+        "title": "8.Amino Acid  Metabolism",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "9_amino_acid__metabolic_disorder",
+        "title": "9.Amino Acid  Metabolic Disorder",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "10_protein_structure_and_function",
+        "title": "10.Protein Structure And Function",
+        "num_questions": 33,
+        "duration": 43,
+        "total_marks": 132
+      },
+      {
+        "id": "11_urea_cycle_and_its_disorders",
+        "title": "11.Urea Cycle And Its Disorders",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "12_lipids__basics",
+        "title": "12.Lipids  Basics",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "13_fatty_acid_oxidation_and_ketogenesis",
+        "title": "13.Fatty Acid Oxidation And Ketogenesis",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "14_biosynthesis_of_fatty_acids_and_eicosanoids",
+        "title": "14.Biosynthesis Of Fatty Acids And Eicosanoids",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "15_metabolism_of_acylglycerols_and_sphingolipids",
+        "title": "15.Metabolism Of Acylglycerols And Sphingolipids",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "16_cholesterol_synthesis__transport_and_excretion",
+        "title": "16.Cholesterol Synthesis, Transport And Excretion",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "17_porphyrins_and_bile_pigments",
+        "title": "17.Porphyrins And Bile Pigments",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "18_enzymes___mechanism_of_action___clinical_importance",
+        "title": "18.Enzymes   Mechanism Of Action & Clinical Importance",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "19_enzyme_kinetics_and_regulation_of_activity",
+        "title": "19.Enzyme Kinetics And Regulation Of Activity",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "20_fat_soluble_vitamins",
+        "title": "20.Fat Soluble Vitamins",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "21_energy_releasing_vitamins",
+        "title": "21.Energy Releasing Vitamins",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "22_hematopoietic_and_other_vitamins",
+        "title": "22.Hematopoietic And Other Vitamins",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "23_antioxidants___minerals",
+        "title": "23.Antioxidants & Minerals",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "24_basics_of_genetics___nucleotide_metabolism_and_its_disorders",
+        "title": "24.Basics Of Genetics   Nucleotide Metabolism And Its Disorders",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "25_dna_organization__replication_and_repair",
+        "title": "25.Dna Organization, Replication And Repair",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "26_rna_synthesis__processing_and_modification",
+        "title": "26.Rna Synthesis, Processing And Modification",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "27_regulation_of_gene_expression",
+        "title": "27.Regulation Of Gene Expression",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "28_molecular_genetics__recombinant_dna___genomic_technology",
+        "title": "28.Molecular Genetics, Recombinant Dna & Genomic Technology",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      }
+    ],
+    "display_name": "Medical Biochemistry",
+    "description": "Metabolism of carbs, lipids, proteins, molecular biology, enzymes, vitamins, and genetics.",
+    "high_yield_topics": [
+      "Metabolic Inborn Errors",
+      "Molecular Biology & Genetics",
+      "Enzyme Kinetics",
+      "Vitamins"
+    ],
+    "neet_weightage": "16 MCQs",
+    "fmge_weightage": "17 MCQs"
+  },
+  {
+    "filename": "4. Pharmacology Qbank.html",
+    "subject": "Pharmacology",
+    "category": "Para-Clinical",
+    "phase": "Phase II",
+    "accent_bg": "bg-blue-500",
+    "accent_text": "text-blue-500",
+    "icon": "pill",
+    "total_tests": 67,
+    "total_questions": 1332,
+    "total_duration": 2002,
+    "tests": [
+      {
+        "id": "1_pharmacokinetics",
+        "title": "1.Pharmacokinetics",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "2_pharmacodynamics",
+        "title": "2.Pharmacodynamics",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "3_clinical_trials_and_miscellaneous",
+        "title": "3.Clinical Trials And Miscellaneous",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "4_pharmacokinetics___calculations",
+        "title": "4.Pharmacokinetics   Calculations",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "5_ans_introduction___parasympathomimetics",
+        "title": "5.Ans Introduction & Parasympathomimetics",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "6_sympathomimetics",
+        "title": "6.Sympathomimetics",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "7_parasympatholytics",
+        "title": "7.Parasympatholytics",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "8_sympatholytics",
+        "title": "8.Sympatholytics",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "9_drugs_for_glaucoma",
+        "title": "9.Drugs For Glaucoma",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "10_anti_anginal_drugs",
+        "title": "10.Anti Anginal Drugs",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "11_heart_failure_drugs",
+        "title": "11.Heart Failure Drugs",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "12_antihypertensive_drugs",
+        "title": "12.Antihypertensive Drugs",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "13_diuretics",
+        "title": "13.Diuretics",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "14_anti_arrythmic_drugs",
+        "title": "14.Anti Arrythmic Drugs",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "15_hypolipidemic_drugs",
+        "title": "15.Hypolipidemic Drugs",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "16_renin_angiotensin_aldosterone_system",
+        "title": "16.Renin Angiotensin Aldosterone System",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "17_anti_diuretics",
+        "title": "17.Anti Diuretics",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "18_sedatives_and_hypnotics",
+        "title": "18.Sedatives And Hypnotics",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "19_anti_epileptics_i",
+        "title": "19.Anti Epileptics I",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "20_anti_epileptics_ii",
+        "title": "20.Anti Epileptics Ii",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "21_anti_psychotics",
+        "title": "21.Anti Psychotics",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "22_anti_manic_drugs",
+        "title": "22.Anti Manic Drugs",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "23_drugs_for_parkinson_s_disease",
+        "title": "23.Drugs For Parkinson\u2019S Disease",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "24_antidepressant_and_antianxiety_drugs",
+        "title": "24.Antidepressant And Antianxiety Drugs",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "25_opioids___functions_and_classification",
+        "title": "25.Opioids   Functions And Classification",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "26_synthetic_opioids",
+        "title": "26.Synthetic Opioids",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "27_opioid_antagonists",
+        "title": "27.Opioid Antagonists",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "28_alcohols",
+        "title": "28.Alcohols",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "29_drugs_for_alzheimer_s_disease_and_other_neurodegenerative_disorders",
+        "title": "29.Drugs For Alzheimer'S Disease And Other Neurodegenerative Disorders",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "30_general_principles_of_antimicrobial_therapy",
+        "title": "30.General Principles Of Antimicrobial Therapy",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "31_antimalarial_drugs",
+        "title": "31.Antimalarial Drugs",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "32_sulfonamides___quinolones_and_urinary_antiseptics",
+        "title": "32.Sulfonamides , Quinolones And Urinary Antiseptics",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "33_antimicrobials_acting_on_30s_subunit",
+        "title": "33.Antimicrobials Acting On 30S Subunit",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "34_antimicrobials_acting_on_50s_subunit",
+        "title": "34.Antimicrobials Acting On 50S Subunit",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "35_antiretroviral_drugs",
+        "title": "35.Antiretroviral Drugs",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "36_penicillins",
+        "title": "36.Penicillins",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "37_cephalosporins__vancomycin_and_carbapenems",
+        "title": "37.Cephalosporins, Vancomycin And Carbapenems",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "38_miscellaneous_antimicrobials",
+        "title": "38.Miscellaneous Antimicrobials",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "39_anti_protozoal_agents_and_anthelmintic_drugs",
+        "title": "39.Anti Protozoal Agents And Anthelmintic Drugs",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "40_antifungal_agents",
+        "title": "40.Antifungal Agents",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "41_first_line_drugs_for_tuberculosis",
+        "title": "41.First Line Drugs For Tuberculosis",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "42_second_line_drugs_for_tuberculosis",
+        "title": "42.Second Line Drugs For Tuberculosis",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "43_anti_leprosy_drugs",
+        "title": "43.Anti Leprosy Drugs",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "44_anti_virals__non_retroviral_",
+        "title": "44.Anti Virals (Non Retroviral)",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "45_hypothalamus_and_pituitary",
+        "title": "45.Hypothalamus And Pituitary",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "46_thyroid_and_antithyroid_agents",
+        "title": "46.Thyroid And Antithyroid Agents",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "47_corticosteroids",
+        "title": "47.Corticosteroids",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "48_osteoporosis_and_calcium_metabolism",
+        "title": "48.Osteoporosis And Calcium Metabolism",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "49_anti_diabetic_drugs___oral",
+        "title": "49.Anti Diabetic Drugs   Oral",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "50_anti_diabetic_drugs___injectable",
+        "title": "50.Anti Diabetic Drugs   Injectable",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "51_ocps__estrogens_and_progestins",
+        "title": "51.Ocps, Estrogens And Progestins",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "52_androgens_and_drugs_for_erectile_dysfunction",
+        "title": "52.Androgens And Drugs For Erectile Dysfunction",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "53_drugs_acting_on_uterus",
+        "title": "53.Drugs Acting On Uterus",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "54_nsaids",
+        "title": "54.Nsaids",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "55_antimigraine_and_antigout_drugs",
+        "title": "55.Antimigraine And Antigout Drugs",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "56_anti_rheumatoid_drugs",
+        "title": "56.Anti Rheumatoid Drugs",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "57_anti_histamines",
+        "title": "57.Anti Histamines",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "58_antiplatelets__fibrinolytics_and_antifibrinolytics",
+        "title": "58.Antiplatelets, Fibrinolytics And Antifibrinolytics",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "59_hematinics",
+        "title": "59.Hematinics",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "60_anticoagulants",
+        "title": "60.Anticoagulants",
+        "num_questions": 36,
+        "duration": 46,
+        "total_marks": 144
+      },
+      {
+        "id": "61_respiratory_system",
+        "title": "61.Respiratory System",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "62_acid_peptic_disorders_and_inflammatory_bowel_disease",
+        "title": "62.Acid Peptic Disorders And Inflammatory Bowel Disease",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "63_anti_emetics_and_drugs_affecting_gastrointestinal_motility",
+        "title": "63.Anti Emetics And Drugs Affecting Gastrointestinal Motility",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "64_cell_cycle_specific_cytotoxic_drugs",
+        "title": "64.Cell Cycle Specific Cytotoxic Drugs",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "65_non_cell_cycle_specific_cytotoxic_drugs",
+        "title": "65.Non Cell Cycle Specific Cytotoxic Drugs",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "66_monoclonal_antibodies",
+        "title": "66.Monoclonal Antibodies",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "67_interleukins__growth_factors_and_targeted_therapies",
+        "title": "67.Interleukins, Growth Factors And Targeted Therapies",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      }
+    ],
+    "display_name": "Clinical Pharmacology",
+    "description": "General pharmacokinetics, ANS, CVS, CNS, antimicrobials, chemotherapeutics, and toxicology.",
+    "high_yield_topics": [
+      "Autonomic Drugs",
+      "Antimicrobial Chemotherapy",
+      "CVS Pharmacotherapy",
+      "CNS Agents"
+    ],
+    "neet_weightage": "20 MCQs",
+    "fmge_weightage": "13 MCQs"
+  },
+  {
+    "filename": "5. Pathology Qbank.html",
+    "subject": "Pathology",
+    "category": "Para-Clinical",
+    "phase": "Phase II",
+    "accent_bg": "bg-indigo-500",
+    "accent_text": "text-indigo-500",
+    "icon": "microscope",
+    "total_tests": 71,
+    "total_questions": 1405,
+    "total_duration": 2115,
+    "tests": [
+      {
+        "id": "1_cellular_genetics__adaptations_and_injury",
+        "title": "1.Cellular Genetics, Adaptations And Injury",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "2_cell_death",
+        "title": "2.Cell Death",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "3_intracellular_accumulations__pathological_calcification_and_cellular_ageing",
+        "title": "3.Intracellular Accumulations, Pathological Calcification And Cellular Ageing",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "4_acute_inflammation",
+        "title": "4.Acute Inflammation",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "5_inflammatory_mediators_and_granulomatous_inflammation",
+        "title": "5.Inflammatory Mediators And Granulomatous Inflammation",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "6_tissue_repair",
+        "title": "6.Tissue Repair",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "7_disorders_of_hemodynamics_and_hemostasis",
+        "title": "7.Disorders Of Hemodynamics And Hemostasis",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "8_modes_of_inheritance",
+        "title": "8.Modes Of Inheritance",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "9_lysosomal_and_glycogen_storage_diseases",
+        "title": "9.Lysosomal And Glycogen Storage Diseases",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "10_chromosomal_disorders_and_other_genetic_disorders",
+        "title": "10.Chromosomal Disorders And Other Genetic Disorders",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "11_characteristics_of_neoplasms_and_epidemiology",
+        "title": "11.Characteristics Of Neoplasms And Epidemiology",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "12_molecular_basis_of_cancer_and_tumor_immunity",
+        "title": "12.Molecular Basis Of Cancer And Tumor Immunity",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "13_carcinogenesis__paraneoplastic_syndromes_and_tumor_markers",
+        "title": "13.Carcinogenesis, Paraneoplastic Syndromes And Tumor Markers",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "14_components_of_immune_system",
+        "title": "14.Components Of Immune System",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "15_hypersensitivity_and_autoimmunity",
+        "title": "15.Hypersensitivity And Autoimmunity",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "16_immunodeficiency_syndromes",
+        "title": "16.Immunodeficiency Syndromes",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "17_amyloidosis_and_graft_rejection",
+        "title": "17.Amyloidosis And Graft Rejection",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "18_microcytic_anemia",
+        "title": "18.Microcytic Anemia",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "19_normocytic_and_macrocytic_anemia",
+        "title": "19.Normocytic And Macrocytic Anemia",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "20_basics_of_hemolysis_and_intravascular_hemolysis",
+        "title": "20.Basics Of Hemolysis And Intravascular Hemolysis",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "21_extravascular_hemolysis",
+        "title": "21.Extravascular Hemolysis",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "22_g6pd_deficiency_and_autoimmune_hemolytic_anemias",
+        "title": "22.G6Pd Deficiency And Autoimmune Hemolytic Anemias",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "23_platelet_disorders",
+        "title": "23.Platelet Disorders",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "24_coagulation_pathway_disorders",
+        "title": "24.Coagulation Pathway Disorders",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "25_blood_products_and_transfusion_reactions",
+        "title": "25.Blood Products And Transfusion Reactions",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "26_acute_lymphocytic_leukemia__all_",
+        "title": "26.Acute Lymphocytic Leukemia (All)",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "27_acute_myeloid_leukemia__aml_",
+        "title": "27.Acute Myeloid Leukemia (Aml)",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "28_hodgkin_s_lymphoma",
+        "title": "28.Hodgkin'S Lymphoma",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "29_non_hodgkin_lymphomas__general_considerations",
+        "title": "29.Non Hodgkin Lymphomas  General Considerations",
+        "num_questions": 8,
+        "duration": 18,
+        "total_marks": 32
+      },
+      {
+        "id": "30_non_hodgkin_lymphomas__low_grade",
+        "title": "30.Non Hodgkin Lymphomas  Low Grade",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "31_non_hodgkin_lymphomas__high_grade",
+        "title": "31.Non Hodgkin Lymphomas  High Grade",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "32_multiple_myeloma_and_plasma_cell_disorders",
+        "title": "32.Multiple Myeloma And Plasma Cell Disorders",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "33_myelodysplastic_syndrome__myeloproliferative_syndromes_and_histiocytosis",
+        "title": "33.Myelodysplastic Syndrome, Myeloproliferative Syndromes And Histiocytosis",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "34_leukopenia__leukocytosis_and_lymphadenitis",
+        "title": "34.Leukopenia, Leukocytosis And Lymphadenitis",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "35_hypertensive_vascular_disease_and_atherosclerosis",
+        "title": "35.Hypertensive Vascular Disease And Atherosclerosis",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "36_aneurysm_and_dissection",
+        "title": "36.Aneurysm And Dissection",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "37_vasculitis",
+        "title": "37.Vasculitis",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "38_vascular_tumors",
+        "title": "38.Vascular Tumors",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "39_heart_failure_and_ischemic_disease",
+        "title": "39.Heart Failure And Ischemic Disease",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "40_myocardial_and_pericardial_diseases_and_cardiac_tumors",
+        "title": "40.Myocardial And Pericardial Diseases And Cardiac Tumors",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "41_congenital_and_valvular_heart_disease",
+        "title": "41.Congenital And Valvular Heart Disease",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "42_rheumatic_fever_and_endocarditis",
+        "title": "42.Rheumatic Fever And Endocarditis",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "43_glomerular_diseases",
+        "title": "43.Glomerular Diseases",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "44_tubulointerstitial__vascular_and_cystic_diseases",
+        "title": "44.Tubulointerstitial, Vascular And Cystic Diseases",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "45_renal_tumors",
+        "title": "45.Renal Tumors",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "46_lower_urinary_tract",
+        "title": "46.Lower Urinary Tract",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "47_female_genital_tract",
+        "title": "47.Female Genital Tract",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "48_male_genital_tract",
+        "title": "48.Male Genital Tract",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "49_alcoholic_and_infectious_liver_disease",
+        "title": "49.Alcoholic And Infectious Liver Disease",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "50_autoimmune_and_metabolic_liver_disease",
+        "title": "50.Autoimmune And Metabolic Liver Disease",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "51_neoplasms_of_liver_and_biliary_tract",
+        "title": "51.Neoplasms Of Liver And Biliary Tract",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "52_gall_bladder_and_pancreas",
+        "title": "52.Gall Bladder And Pancreas",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "53_esophagus",
+        "title": "53.Esophagus",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "54_stomach",
+        "title": "54.Stomach",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "55_small_intestine",
+        "title": "55.Small Intestine",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "56_large_intestine___non_neoplastic_conditions",
+        "title": "56.Large Intestine   Non Neoplastic Conditions",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "57_large_intestine___neoplastic_conditions",
+        "title": "57.Large Intestine   Neoplastic Conditions",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "58_congenital_anomalies__ards__infections",
+        "title": "58.Congenital Anomalies, Ards, Infections",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "59_obstructive_and_restrictive_lung_diseases",
+        "title": "59.Obstructive And Restrictive Lung Diseases",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "60_lung_tumors",
+        "title": "60.Lung Tumors",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "61_pituitary__parathyroids_and_pancreas",
+        "title": "61.Pituitary ,Parathyroids And Pancreas",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "62_thyroid_glands",
+        "title": "62.Thyroid Glands",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "63_the_adrenals",
+        "title": "63.The Adrenals",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "64_the_breast",
+        "title": "64.The Breast",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "65_developmental_disorders_infections_and_tumors_of_bone",
+        "title": "65.Developmental Disorders,Infections And Tumors Of Bone",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "66_joints_and_soft_tissue_pathology",
+        "title": "66.Joints And Soft Tissue Pathology",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "67_skin_pathology",
+        "title": "67.Skin Pathology",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "68_infective___vascular_cns_pathology",
+        "title": "68.Infective & Vascular Cns Pathology",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "69_degenerative__toxic___metabolic_cns__disorders",
+        "title": "69.Degenerative, Toxic & Metabolic Cns  Disorders",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "70_cns_tumours",
+        "title": "70.Cns Tumours",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "71_peripheral_nerves___neuromuscular_pathology",
+        "title": "71.Peripheral Nerves & Neuromuscular Pathology",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      }
+    ],
+    "display_name": "General & Systemic Pathology",
+    "description": "Cell injury, inflammation, neoplasia, hematology, systemic organ pathology, and histopathology.",
+    "high_yield_topics": [
+      "Hematology & Anemias",
+      "Neoplasia & Genetics",
+      "Renal & Glomerular",
+      "Cardiovascular"
+    ],
+    "neet_weightage": "25 MCQs",
+    "fmge_weightage": "13 MCQs"
+  },
+  {
+    "filename": "11. Microbiology Qbank.html",
+    "subject": "Microbiology",
+    "category": "Para-Clinical",
+    "phase": "Phase II",
+    "accent_bg": "bg-violet-500",
+    "accent_text": "text-violet-500",
+    "icon": "bug",
+    "total_tests": 35,
+    "total_questions": 616,
+    "total_duration": 966,
+    "tests": [
+      {
+        "id": "1_general_microbiology",
+        "title": "1.General Microbiology",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "2_components_of_immune_system",
+        "title": "2.Components Of Immune System",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "3_structure_and_functions_of_the_immune_system___immune_response",
+        "title": "3.Structure And Functions Of The Immune System & Immune Response",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "4_hypersensitivity",
+        "title": "4.Hypersensitivity",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "5_immune_disorders",
+        "title": "5.Immune Disorders",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "6_streptococci_and_enterococci",
+        "title": "6.Streptococci And Enterococci",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "7_staphylococci",
+        "title": "7.Staphylococci",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "8_corynebacterium__listeria_and_actinomyces",
+        "title": "8.Corynebacterium, Listeria And Actinomyces",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "9_clostridium_and_bacillus",
+        "title": "9.Clostridium And Bacillus",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "10_mycobacteria_tuberculosis",
+        "title": "10.Mycobacteria Tuberculosis",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "11_other_mycobacteria",
+        "title": "11.Other Mycobacteria",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "12_escherichia__proteus_and_klebsiella",
+        "title": "12.Escherichia, Proteus And Klebsiella",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "13_shigella_and_salmonella",
+        "title": "13.Shigella And Salmonella",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "14_vibrio_and_campylobacterales",
+        "title": "14.Vibrio And Campylobacterales",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "15_pseudomonas_and_burkholderiales",
+        "title": "15.Pseudomonas And Burkholderiales",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "16_haemophilus",
+        "title": "16.Haemophilus",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "17_miscellaneous_bacteria___yersinia__brucella__bartonella__legionella",
+        "title": "17.Miscellaneous Bacteria   Yersinia, Brucella, Bartonella, Legionella",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "18_gram_negative_cocci",
+        "title": "18.Gram Negative Cocci",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "19_rickettsia__chlamydia_and_mycoplasma",
+        "title": "19.Rickettsia, Chlamydia And Mycoplasma",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "20_spirochetes",
+        "title": "20.Spirochetes",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "21_general_properties_of_viruses",
+        "title": "21.General Properties Of Viruses",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "22_dna_viruses",
+        "title": "22.Dna Viruses",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "23_hepatitis",
+        "title": "23.Hepatitis",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "24_hiv",
+        "title": "24.Hiv",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "25_myxoviruses_and_rhabdoviruses",
+        "title": "25.Myxoviruses And Rhabdoviruses",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "26_arboviruses_and_picorna_viruses",
+        "title": "26.Arboviruses And Picorna Viruses",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "27_miscellaneous_viruses___rubella__coronaviruses__prions__rotavirus__filovirus__zika_virus_and_nipah_virus",
+        "title": "27.Miscellaneous Viruses   Rubella, Coronaviruses, Prions, Rotavirus, Filovirus, Zika Virus And Nipah Virus",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "28_superficial_and_systemic_mycoses",
+        "title": "28.Superficial And Systemic Mycoses",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "29_opportunistic_mycoses",
+        "title": "29.Opportunistic Mycoses",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "30_general_parasitology",
+        "title": "30.General Parasitology",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "31_protozoology___amoebae__ciliates___flagellates",
+        "title": "31.Protozoology   Amoebae, Ciliates & Flagellates",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "32_protozoology___sporozoa",
+        "title": "32.Protozoology   Sporozoa",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "33_helminthology___cestodes___trematodes",
+        "title": "33.Helminthology   Cestodes & Trematodes",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "34_helminthology___nematodes",
+        "title": "34.Helminthology   Nematodes",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "35_applied_microbiology",
+        "title": "35.Applied Microbiology",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      }
+    ],
+    "display_name": "Microbiology & Immunology",
+    "description": "Bacteriology, virology, mycology, parasitology, immunology, and hospital infection control.",
+    "high_yield_topics": [
+      "Immunology & Hypersensitivity",
+      "Bacteriology & Culture",
+      "Virology (HIV, Hepatitis)",
+      "Parasitology"
+    ],
+    "neet_weightage": "20 MCQs",
+    "fmge_weightage": "13 MCQs"
+  },
+  {
+    "filename": "3. Forensic Medicine Qbank.html",
+    "subject": "Forensic Medicine",
+    "category": "Para-Clinical",
+    "phase": "Phase II",
+    "accent_bg": "bg-purple-500",
+    "accent_text": "text-purple-500",
+    "icon": "scale",
+    "total_tests": 21,
+    "total_questions": 436,
+    "total_duration": 646,
+    "tests": [
+      {
+        "id": "1_skeletal_and_dental_age_determination",
+        "title": "1.Skeletal And Dental Age Determination",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "2_race__sex_and_stature_determination",
+        "title": "2.Race, Sex And Stature Determination",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "3_fingerprint_and_tattoos",
+        "title": "3.Fingerprint And Tattoos",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "4_bns__bnss__and_bsa",
+        "title": "4.Bns, Bnss, And Bsa",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "5_death_and_post_mortem_changes",
+        "title": "5.Death And Post Mortem Changes",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "6_medico_legal_autopsy",
+        "title": "6.Medico Legal Autopsy",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "7_mechanical_injuries",
+        "title": "7.Mechanical Injuries",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "8_regional_injuries",
+        "title": "8.Regional Injuries",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "9_thermal_injuries",
+        "title": "9.Thermal Injuries",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "10_firearm_injuries_and_blast_injuries",
+        "title": "10.Firearm Injuries And Blast Injuries",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "11_mechanical_asphyxia",
+        "title": "11.Mechanical Asphyxia",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "12_drowning",
+        "title": "12.Drowning",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "13_sexual_offences_and_abortion",
+        "title": "13.Sexual Offences And Abortion",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "14_childhood_violence__infanticide_and_starvation",
+        "title": "14.Childhood Violence, Infanticide And Starvation",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "15_poisoning__general_considerations",
+        "title": "15.Poisoning  General Considerations",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "16_organophosphorus_poisoning",
+        "title": "16.Organophosphorus Poisoning",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "17_corrosives_and_asphyxiants",
+        "title": "17.Corrosives And Asphyxiants",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "18_alcohol_poisoning",
+        "title": "18.Alcohol Poisoning",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "19_inorganic_irritants___metallic_and_non_metallic",
+        "title": "19.Inorganic Irritants   Metallic And Non Metallic",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "20_organic_irritants___plant_and_animal_poisons",
+        "title": "20.Organic Irritants   Plant And Animal Poisons",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "21_cns___narcotics_and_deliriants",
+        "title": "21.Cns   Narcotics And Deliriants",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      }
+    ],
+    "display_name": "Forensic Medicine & Toxicology (FMT)",
+    "description": "Medical jurisprudence, legal procedures, thanatology, traumatology, sexual offenses, and poisons.",
+    "high_yield_topics": [
+      "Thanatology & Postmortem",
+      "Firearms & Ballistics",
+      "Toxicology & Antidotes",
+      "Medical Ethics"
+    ],
+    "neet_weightage": "10 MCQs",
+    "fmge_weightage": "10 MCQs"
+  },
+  {
+    "filename": "10. PSM Qbank.html",
+    "subject": "PSM",
+    "category": "Para-Clinical",
+    "phase": "Phase II",
+    "accent_bg": "bg-fuchsia-500",
+    "accent_text": "text-fuchsia-500",
+    "icon": "users",
+    "total_tests": 64,
+    "total_questions": 1319,
+    "total_duration": 1959,
+    "tests": [
+      {
+        "id": "1_history_of_medicine",
+        "title": "1.History Of Medicine",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "2_health_determinants_and_indicators",
+        "title": "2.Health Determinants And Indicators",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "3_concepts_of_disease_and_prevention",
+        "title": "3.Concepts Of Disease And Prevention",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "4_principles_of_epidemiology",
+        "title": "4.Principles Of Epidemiology",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "5_descriptive_epidemiology",
+        "title": "5.Descriptive Epidemiology",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "6_analytical_epidemiology",
+        "title": "6.Analytical Epidemiology",
+        "num_questions": 33,
+        "duration": 43,
+        "total_marks": 132
+      },
+      {
+        "id": "7_experimental_epidemiology",
+        "title": "7.Experimental Epidemiology",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "8_basic_definitions_in_infectious_disease_epidemiology",
+        "title": "8.Basic Definitions In Infectious Disease Epidemiology",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "9_dynamics_of_disease_transmission",
+        "title": "9.Dynamics Of Disease Transmission",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "10_principles_of_immunization_and_vaccination",
+        "title": "10.Principles Of Immunization And Vaccination",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "11_vaccine_production_and_storage",
+        "title": "11.Vaccine Production And Storage",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "12_sterilization_and_disinfection",
+        "title": "12.Sterilization And Disinfection",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "13_screening",
+        "title": "13.Screening",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "14_viral_respiratory_infections",
+        "title": "14.Viral Respiratory Infections",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "15_bacterial_respiratory_infections",
+        "title": "15.Bacterial Respiratory Infections",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "16_intestinal_infections",
+        "title": "16.Intestinal Infections",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "17_arthropod_borne_infections",
+        "title": "17.Arthropod Borne Infections",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "18_zoonotic_infections___viral",
+        "title": "18.Zoonotic Infections   Viral",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "19_zoonotic_infections___bacterial___parasitic",
+        "title": "19.Zoonotic Infections   Bacterial & Parasitic",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "20_stds_and_surface_infections",
+        "title": "20.Stds And Surface Infections",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "21_non_communicable_diseases___cardiovascular_diseases_and_diabetes",
+        "title": "21.Non Communicable Diseases   Cardiovascular Diseases And Diabetes",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "22_non_communicable_diseases___cancer__obesity_and_blindness",
+        "title": "22.Non Communicable Diseases   Cancer, Obesity And Blindness",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "23_national_health_programmes_i___nvbdcp",
+        "title": "23.National Health Programmes I   Nvbdcp",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "24_national_health_programmes_ii___nlep__ntep___naco",
+        "title": "24.National Health Programmes Ii   Nlep, Ntep & Naco",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "25_national_health_programmes_iii___nis__jsy__rbsk_and_others",
+        "title": "25.National Health Programmes Iii   Nis, Jsy, Rbsk And Others",
+        "num_questions": 38,
+        "duration": 48,
+        "total_marks": 152
+      },
+      {
+        "id": "26_demography_i__demographic_cycle__annual_growth_rate_and_age_pyramid",
+        "title": "26.Demography I  Demographic Cycle, Annual Growth Rate And Age Pyramid",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "27_demography_ii__demographic_indicators",
+        "title": "27.Demography Ii  Demographic Indicators",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "28_family_planning",
+        "title": "28.Family Planning",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "29_preventive_obstetrics__pediatrics_and_geriatrics",
+        "title": "29.Preventive Obstetrics, Pediatrics And Geriatrics",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "30_energy_metabolism_and_macronutrients",
+        "title": "30.Energy Metabolism And Macronutrients",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "31_micronutrients_and_water",
+        "title": "31.Micronutrients And Water",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "32_food_quality_and_processing",
+        "title": "32.Food Quality And Processing",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "33_concepts_of_sociology_and_psychology",
+        "title": "33.Concepts Of Sociology And Psychology",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "34_social_organization_and_economics",
+        "title": "34.Social Organization And Economics",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "35_water___i__sources_and_purification_of_water",
+        "title": "35.Water   I  Sources And Purification Of Water",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "36_water__ii__disinfection_of_water",
+        "title": "36.Water  Ii  Disinfection Of Water",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "37_water___iii__water_quality_and_standards",
+        "title": "37.Water   Iii  Water Quality And Standards",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "38_environmental_meteorology",
+        "title": "38.Environmental Meteorology",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "39_housing_and_ventilation",
+        "title": "39.Housing And Ventilation",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "40_light__sound_and_radiation",
+        "title": "40.Light, Sound And Radiation",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "41_waste_and_sewage_disposal",
+        "title": "41.Waste And Sewage Disposal",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "42_medical_entomology___mosquitoes_and_flies",
+        "title": "42.Medical Entomology   Mosquitoes And Flies",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "43_medical_entomology___ticks__fleas_and_mites",
+        "title": "43.Medical Entomology   Ticks, Fleas And Mites",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "44_methods_of_pest_control",
+        "title": "44.Methods Of Pest Control",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "45_biomedical_waste_management",
+        "title": "45.Biomedical Waste Management",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "46_disaster_management",
+        "title": "46.Disaster Management",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "47_occupational_health_diseases",
+        "title": "47.Occupational Health Diseases",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "48_esi_and_factories_act",
+        "title": "48.Esi And Factories Act",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "49_communication_for_health_education",
+        "title": "49.Communication For Health Education",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "50_health_planning_and_management",
+        "title": "50.Health Planning And Management",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "51_healthcare_in_india",
+        "title": "51.Healthcare In India",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "52_healthcare_in_india____iphs_2022_update",
+        "title": "52.Healthcare In India    Iphs 2022 Update",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "53_international_health",
+        "title": "53.International Health",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "54_descriptive_statistics_i___probability_and_data",
+        "title": "54.Descriptive Statistics I   Probability And Data",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "55_descriptive_statistics_ii___measures_of_location",
+        "title": "55.Descriptive Statistics Ii   Measures Of Location",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "56_descriptive_statistics_iii___measures_of_dispersion",
+        "title": "56.Descriptive Statistics Iii   Measures Of Dispersion",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "57_descriptive_statistics_iv___measures_of_position",
+        "title": "57.Descriptive Statistics Iv   Measures Of Position",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "58_inferential_statistics",
+        "title": "58.Inferential Statistics",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "59_concepts_in_hypothesis_testing",
+        "title": "59.Concepts In Hypothesis Testing",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "60_tests_of_significance",
+        "title": "60.Tests Of Significance",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "61_correlational_and_predictive_techniques",
+        "title": "61.Correlational And Predictive Techniques",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "62_facets_of_clinical_research_and_biostatistics",
+        "title": "62.Facets Of Clinical Research And Biostatistics",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "63_mental_health",
+        "title": "63.Mental Health",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "64_genetics_and_health",
+        "title": "64.Genetics And Health",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      }
+    ],
+    "display_name": "Community Medicine (PSM)",
+    "description": "Epidemiology, biostatistics, screening, national health programs, nutrition, and public health.",
+    "high_yield_topics": [
+      "Biostatistics & Screening Tests",
+      "Epidemiological Studies",
+      "National Health Programs",
+      "Vaccination Schedules"
+    ],
+    "neet_weightage": "25 MCQs",
+    "fmge_weightage": "30 MCQs"
+  },
+  {
+    "filename": "16. Medicine Qbank.html",
+    "subject": "Medicine",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-rose-500",
+    "accent_text": "text-rose-500",
+    "icon": "stethoscope",
+    "total_tests": 104,
+    "total_questions": 1868,
+    "total_duration": 2908,
+    "tests": [
+      {
+        "id": "1_clinical_examination",
+        "title": "1.Clinical Examination",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "2_acid_base_disorders",
+        "title": "2.Acid Base Disorders",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "3_general_principles_of_endocrinology",
+        "title": "3.General Principles Of Endocrinology",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "4_disorders_of_anterior_pituitary",
+        "title": "4.Disorders Of Anterior Pituitary",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "5_pituitary_tumours_and_sheehan_s_syndrome",
+        "title": "5.Pituitary Tumours And Sheehan'S Syndrome",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "6_posterior_pituitary___adh__oxytocin___diabetes_insipidus",
+        "title": "6.Posterior Pituitary   Adh, Oxytocin & Diabetes Insipidus",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "7_syndrome_of_inappropriate_anti_diuretic_hormone_secretion__siadh_",
+        "title": "7.Syndrome Of Inappropriate Anti Diuretic Hormone Secretion (Siadh)",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "8_thyroid_disorders___clinical_features",
+        "title": "8.Thyroid Disorders   Clinical Features",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "9_thyroid_disorders___management",
+        "title": "9.Thyroid Disorders   Management",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "10_multiple_endocrine_neoplasia",
+        "title": "10.Multiple Endocrine Neoplasia",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "11_pheochromocytoma",
+        "title": "11.Pheochromocytoma",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "12_cushing_s_syndrome",
+        "title": "12.Cushing'S Syndrome",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "13_adrenal_insufficiency_and_hyperaldosteronism",
+        "title": "13.Adrenal Insufficiency And Hyperaldosteronism",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "14_diabetes_mellitus__types__clinical_features_and_management",
+        "title": "14.Diabetes Mellitus  Types, Clinical Features And Management",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "15_diabetes_mellitus__complications_and_their_management",
+        "title": "15.Diabetes Mellitus  Complications And Their Management",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "16_reproductive_endocrinology",
+        "title": "16.Reproductive Endocrinology",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "17_disorders_of_parathyroid_and_calcium_homeostasis",
+        "title": "17.Disorders Of Parathyroid And Calcium Homeostasis",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "18_obesity",
+        "title": "18.Obesity",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "19_hyperbilirubinemias_and_tests_of_liver_function",
+        "title": "19.Hyperbilirubinemias And Tests Of Liver Function",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "20_alcoholic_liver_diseases_and_non_alcoholic_fatty_liver_disease",
+        "title": "20.Alcoholic Liver Diseases And Non Alcoholic Fatty Liver Disease",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "21_viral_hepatitis",
+        "title": "21.Viral Hepatitis",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "22_autoimmune_disorders_of_hepatobiliary_system",
+        "title": "22.Autoimmune Disorders Of Hepatobiliary System",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "23_acute_liver_failure_and_liver_transplantation",
+        "title": "23.Acute Liver Failure And Liver Transplantation",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "24_hemochromatosis_and_wilson_s_disease",
+        "title": "24.Hemochromatosis And Wilson'S Disease",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "25_cirrhosis_and_complications",
+        "title": "25.Cirrhosis And Complications",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "26_peptic_ulcer_disease_and_related_disorders",
+        "title": "26.Peptic Ulcer Disease And Related Disorders",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "27_evaluation_of_diarrhea",
+        "title": "27.Evaluation Of Diarrhea",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "28_irritable_bowel_syndrome",
+        "title": "28.Irritable Bowel Syndrome",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "29_inflammatory_bowel_disease___clinical_features_and_diagnosis",
+        "title": "29.Inflammatory Bowel Disease   Clinical Features And Diagnosis",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "30_inflammatory_bowel_disease___complications_and_treatment",
+        "title": "30.Inflammatory Bowel Disease   Complications And Treatment",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "31_malabsorption_syndromes",
+        "title": "31.Malabsorption Syndromes",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "32_other_gastrointestinal_conditions",
+        "title": "32.Other Gastrointestinal Conditions",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "33_large_and_medium_vessel_vasculitis",
+        "title": "33.Large And Medium Vessel Vasculitis",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "34_small_vessel_vasculitis",
+        "title": "34.Small Vessel Vasculitis",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "35_crystal_arthropathies",
+        "title": "35.Crystal Arthropathies",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "36_sjogren_s_syndrome_and_scleroderma",
+        "title": "36.Sjogren'S Syndrome And Scleroderma",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "37_sarcoidosis",
+        "title": "37.Sarcoidosis",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "38_dermatomyositis_and_related_disorders",
+        "title": "38.Dermatomyositis And Related Disorders",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "39_seronegative_spondyloarthritides",
+        "title": "39.Seronegative Spondyloarthritides",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "40_sle_and_aps",
+        "title": "40.Sle And Aps",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "41_rheumatoid_arthritis",
+        "title": "41.Rheumatoid Arthritis",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "42_asthma___copd",
+        "title": "42.Asthma & Copd",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "43_pneumonia",
+        "title": "43.Pneumonia",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "44_interstitial_lung_diseases_and_pneumoconiosis",
+        "title": "44.Interstitial Lung Diseases And Pneumoconiosis",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "45_bronchiectasis_and_lung_abscess",
+        "title": "45.Bronchiectasis And Lung Abscess",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "46_pulmonary_function_tests",
+        "title": "46.Pulmonary Function Tests",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "47_respiratory_failure_and_ards",
+        "title": "47.Respiratory Failure And Ards",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "48_neoplasms_of_the_lung",
+        "title": "48.Neoplasms Of The Lung",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "49_sleep_apnea",
+        "title": "49.Sleep Apnea",
+        "num_questions": 8,
+        "duration": 18,
+        "total_marks": 32
+      },
+      {
+        "id": "50_urine_analysis",
+        "title": "50.Urine Analysis",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "51_chronic_kidney_disease",
+        "title": "51.Chronic Kidney Disease",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "52_acute_kidney_injury",
+        "title": "52.Acute Kidney Injury",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "53_renal_replacement_therapy",
+        "title": "53.Renal Replacement Therapy",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "54_cystic_and_inherited_disorders_of_the_kidney",
+        "title": "54.Cystic And Inherited Disorders Of The Kidney",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "55_renal_tubular_disorders",
+        "title": "55.Renal Tubular Disorders",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "56_vascular_diseases_of_kidney",
+        "title": "56.Vascular Diseases Of Kidney",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "57_diagnosis_of_cardiovascular_disorders",
+        "title": "57.Diagnosis Of Cardiovascular Disorders",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "58_ecg_basics",
+        "title": "58.Ecg Basics",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "59_supraventricular_arrhythmias",
+        "title": "59.Supraventricular Arrhythmias",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "60_ventricular_arrhythmias_and_heart_blocks",
+        "title": "60.Ventricular Arrhythmias And Heart Blocks",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "61_valvular_heart_diseases",
+        "title": "61.Valvular Heart Diseases",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "62_infective_endocarditis_and_acute_rheumatic_fever",
+        "title": "62.Infective Endocarditis And Acute Rheumatic Fever",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "63_hypertensive_vascular_disease",
+        "title": "63.Hypertensive Vascular Disease",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "64_ischemic_heart_disease___presentation_and_diagnosis",
+        "title": "64.Ischemic Heart Disease   Presentation And Diagnosis",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "65_ischemic_heart_disease___complications_and_management",
+        "title": "65.Ischemic Heart Disease   Complications And Management",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "66_cardiomyopathy_and_myocarditis",
+        "title": "66.Cardiomyopathy And Myocarditis",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "67_heart_failure",
+        "title": "67.Heart Failure",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "68_pericardial_diseases",
+        "title": "68.Pericardial Diseases",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "69_pulmonary_hypertension",
+        "title": "69.Pulmonary Hypertension",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "70_diseases_of_aorta_and_peripheral_arteries",
+        "title": "70.Diseases Of Aorta And Peripheral Arteries",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "71_dvt_and_pulmonary_embolism",
+        "title": "71.Dvt And Pulmonary Embolism",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "72_general_neurology__brain_death__and_gcs",
+        "title": "72.General Neurology, Brain Death, And Gcs",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "73_seizures_and_epilepsy",
+        "title": "73.Seizures And Epilepsy",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "74_ischemic_stroke",
+        "title": "74.Ischemic Stroke",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "75_brainstem_syndromes_and_hemorrhagic_stroke",
+        "title": "75.Brainstem Syndromes And Hemorrhagic Stroke",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "76_peripheral_neuropathy",
+        "title": "76.Peripheral Neuropathy",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "77_guillain_barre_syndrome_and_other_immune_mediated_neuropathies",
+        "title": "77.Guillain Barre Syndrome And Other Immune Mediated Neuropathies",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "78_diseases_of_the_spinal_cord",
+        "title": "78.Diseases Of The Spinal Cord",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "79_myasthenia_gravis_and_other_neuromuscular_junction_disorders",
+        "title": "79.Myasthenia Gravis And Other Neuromuscular Junction Disorders",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "80_multiple_sclerosis___other_demyelinating_disorders",
+        "title": "80.Multiple Sclerosis & Other Demyelinating Disorders",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "81_headache_disorders",
+        "title": "81.Headache Disorders",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "82_movement_disorders",
+        "title": "82.Movement Disorders",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "83_als_and_other_motor_neuron_diseases",
+        "title": "83.Als And Other Motor Neuron Diseases",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "84_ataxic_disorders",
+        "title": "84.Ataxic Disorders",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "85_cranial_nerve_disorders",
+        "title": "85.Cranial Nerve Disorders",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "86_infections_of_the_nervous_system",
+        "title": "86.Infections Of The Nervous System",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "87_hypoproliferative_anemia",
+        "title": "87.Hypoproliferative Anemia",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "88_macrocytic_anemia",
+        "title": "88.Macrocytic Anemia",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "89_hemolytic_anemia",
+        "title": "89.Hemolytic Anemia",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "90_myeloproliferative_disorders_and_aplastic_anemia",
+        "title": "90.Myeloproliferative Disorders And Aplastic Anemia",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "91_platelet_disorders",
+        "title": "91.Platelet Disorders",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "92_acute_leukemia",
+        "title": "92.Acute Leukemia",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "93_plasma_cell_disorders",
+        "title": "93.Plasma Cell Disorders",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "94_chronic_myeloid_leukemia_and_chronic_lymphoid_leukemia",
+        "title": "94.Chronic Myeloid Leukemia And Chronic Lymphoid Leukemia",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "95_lymphomas",
+        "title": "95.Lymphomas",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "96_coagulation_disorders",
+        "title": "96.Coagulation Disorders",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "97_haemoglobinopathies",
+        "title": "97.Haemoglobinopathies",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "98_blood_bank___transfusion_medicine",
+        "title": "98.Blood Bank & Transfusion Medicine",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "99_hiv___aids___epidemiology_and_clinical_features",
+        "title": "99.Hiv   Aids   Epidemiology And Clinical Features",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "100_hiv___aids___management_and_prophylaxis",
+        "title": "100.Hiv   Aids   Management And Prophylaxis",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "101_covid_19___epidemiology_and_clinical_features",
+        "title": "101.Covid 19   Epidemiology And Clinical Features",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "102_covid_19___investigations",
+        "title": "102.Covid 19   Investigations",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "103_covid_19___treatment",
+        "title": "103.Covid 19   Treatment",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "104_covid_19___prophylaxis_and_complications",
+        "title": "104.Covid 19   Prophylaxis And Complications",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      }
+    ],
+    "display_name": "Internal Medicine",
+    "description": "Cardiology, neurology, nephrology, gastroenterology, pulmonology, rheumatology, and endocrinology.",
+    "high_yield_topics": [
+      "Cardiology & ECG Pearls",
+      "Neurology & Stroke Syndromes",
+      "Endocrine Emergencies",
+      "Infectious Diseases"
+    ],
+    "neet_weightage": "35 MCQs",
+    "fmge_weightage": "33 MCQs"
+  },
+  {
+    "filename": "7. Surgery Qbank.html",
+    "subject": "Surgery",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-red-500",
+    "accent_text": "text-red-500",
+    "icon": "scissors",
+    "total_tests": 54,
+    "total_questions": 1256,
+    "total_duration": 1796,
+    "tests": [
+      {
+        "id": "1_fluids__electrolytes___nutrition",
+        "title": "1.Fluids, Electrolytes & Nutrition",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "2_shock_and_blood_transfusion",
+        "title": "2.Shock And Blood Transfusion",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "3_instruments___sutures",
+        "title": "3.Instruments & Sutures",
+        "num_questions": 36,
+        "duration": 46,
+        "total_marks": 144
+      },
+      {
+        "id": "4_paediatric_surgery",
+        "title": "4.Paediatric Surgery",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "5_trauma___scores__investigations_and_assessment",
+        "title": "5.Trauma   Scores, Investigations And Assessment",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "6_trauma___spinal__thoracic_and_abdominal_injuries",
+        "title": "6.Trauma   Spinal, Thoracic And Abdominal Injuries",
+        "num_questions": 33,
+        "duration": 43,
+        "total_marks": 132
+      },
+      {
+        "id": "7_breast___anatomy__congenital_and_benign_diseases",
+        "title": "7.Breast   Anatomy, Congenital And Benign Diseases",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "8_carcinoma_breast___risk_factors_and_types",
+        "title": "8.Carcinoma Breast   Risk Factors And Types",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "9_investigations_in_breast_diseases",
+        "title": "9.Investigations In Breast Diseases",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "10_carcinoma_breast___staging__prognosis___molecular_types",
+        "title": "10.Carcinoma Breast   Staging, Prognosis & Molecular Types",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "11_carcinoma_breast___treatment",
+        "title": "11.Carcinoma Breast   Treatment",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "12_benign_lesions_of_thyroid",
+        "title": "12.Benign Lesions Of Thyroid",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "13_thyroid_malignancies",
+        "title": "13.Thyroid Malignancies",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "14_the_parathyroids",
+        "title": "14.The Parathyroids",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "15_the_adrenals",
+        "title": "15.The Adrenals",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "16_esophagus___congenital__motility___inflammatory_disorders",
+        "title": "16.Esophagus   Congenital, Motility & Inflammatory Disorders",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "17_esophagus___gerd___carcinoma",
+        "title": "17.Esophagus   Gerd & Carcinoma",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "18_stomach_and_duodenum",
+        "title": "18.Stomach And Duodenum",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "19_carcinoma_stomach",
+        "title": "19.Carcinoma Stomach",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "20_metabolic___bariatric_surgery",
+        "title": "20.Metabolic & Bariatric Surgery",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "21_small_intestine",
+        "title": "21.Small Intestine",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "22_large_intestine",
+        "title": "22.Large Intestine",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "23_appendix",
+        "title": "23.Appendix",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "24_polyps_and_colorectal_carcinoma",
+        "title": "24.Polyps And Colorectal Carcinoma",
+        "num_questions": 36,
+        "duration": 46,
+        "total_marks": 144
+      },
+      {
+        "id": "25_rectum",
+        "title": "25.Rectum",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "26_anus_and_anal_canal",
+        "title": "26.Anus And Anal Canal",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "27_hernia",
+        "title": "27.Hernia",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "28_benign_conditions_of_liver",
+        "title": "28.Benign Conditions Of Liver",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "29_benign_tumors_of_liver",
+        "title": "29.Benign Tumors Of Liver",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "30_malignant_tumors_of_liver",
+        "title": "30.Malignant Tumors Of Liver",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "31_gall_bladder",
+        "title": "31.Gall Bladder",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "32_bile_duct",
+        "title": "32.Bile Duct",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "33_spleen",
+        "title": "33.Spleen",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "34_endocrine_pancreas",
+        "title": "34.Endocrine Pancreas",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "35_congenital_anomalies_and_acute_pancreatitis",
+        "title": "35.Congenital Anomalies And Acute Pancreatitis",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "36_chronic_pancreatitis",
+        "title": "36.Chronic Pancreatitis",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "37_carcinoma_pancreas",
+        "title": "37.Carcinoma Pancreas",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "38_congenital_diseases_of_kidney_and_urinary_calculi",
+        "title": "38.Congenital Diseases Of Kidney And Urinary Calculi",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "39_infections_and_tumors_of_kidney",
+        "title": "39.Infections And Tumors Of Kidney",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "40_urinary_bladder_and_ureters",
+        "title": "40.Urinary Bladder And Ureters",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "41_prostate",
+        "title": "41.Prostate",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "42_urethra_and_penis",
+        "title": "42.Urethra And Penis",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "43_testes_and_scrotum",
+        "title": "43.Testes And Scrotum",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "44_head_injury",
+        "title": "44.Head Injury",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "45_oral_cavity___salivary_glands",
+        "title": "45.Oral Cavity & Salivary Glands",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "46_burns",
+        "title": "46.Burns",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "47_wound_healing__tissue_repair___scar",
+        "title": "47.Wound Healing, Tissue Repair & Scar",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "48_reconstructive_surgery",
+        "title": "48.Reconstructive Surgery",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "49_thorax___lungs",
+        "title": "49.Thorax & Lungs",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "50_ischemic_arterial_diseases",
+        "title": "50.Ischemic Arterial Diseases",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "51_arterial_aneurysms__dissections_and_malformations",
+        "title": "51.Arterial Aneurysms, Dissections And Malformations",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "52_venous_diseases",
+        "title": "52.Venous Diseases",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "53_lymphatic_diseases",
+        "title": "53.Lymphatic Diseases",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "54_skin_malignancies",
+        "title": "54.Skin Malignancies",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      }
+    ],
+    "display_name": "General Surgery",
+    "description": "Trauma, surgical oncology, gastrointestinal, breast, thyroid, vascular, and critical care.",
+    "high_yield_topics": [
+      "Trauma & ATLS Protocol",
+      "Thyroid & Breast Ca",
+      "Acute Abdomen & GI",
+      "Burns & Wound Healing"
+    ],
+    "neet_weightage": "30 MCQs",
+    "fmge_weightage": "32 MCQs"
+  },
+  {
+    "filename": "8. OBGYN Qbank.html",
+    "subject": "OBGYN",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-pink-500",
+    "accent_text": "text-pink-500",
+    "icon": "baby",
+    "total_tests": 47,
+    "total_questions": 989,
+    "total_duration": 1459,
+    "tests": [
+      {
+        "id": "1_anatomy_of_female_pelvic_organs",
+        "title": "1.Anatomy Of Female Pelvic Organs",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "2_the_physiology_of_conception",
+        "title": "2.The Physiology Of Conception",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "3_maternal_pelvis_and_fetal_skull",
+        "title": "3.Maternal Pelvis And Fetal Skull",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "4_placenta_and_fetal_membranes",
+        "title": "4.Placenta And Fetal Membranes",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "5_sexual_development__puberty_and_adolescence",
+        "title": "5.Sexual Development, Puberty And Adolescence",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "6_physiological_changes_during_pregnancy",
+        "title": "6.Physiological Changes During Pregnancy",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "7_diagnosis_of_pregnancy_and_antenatal_care",
+        "title": "7.Diagnosis Of Pregnancy And Antenatal Care",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "8_antenatal_investigations",
+        "title": "8.Antenatal Investigations",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "9_obstetrical_imaging",
+        "title": "9.Obstetrical Imaging",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "10_normal_labour",
+        "title": "10.Normal Labour",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "11_abnormal_labour",
+        "title": "11.Abnormal Labour",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "12_induction_and_augmentation_of_labour",
+        "title": "12.Induction And Augmentation Of Labour",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "13_malpresentations",
+        "title": "13.Malpresentations",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "14_operative_vaginal_delivery",
+        "title": "14.Operative Vaginal Delivery",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "15_caesarean_section_and_vaginal_birth_after_caesarean__vbac_",
+        "title": "15.Caesarean Section And Vaginal Birth After Caesarean (Vbac)",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "16_puerperium",
+        "title": "16.Puerperium",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "17_multifetal_pregnancy",
+        "title": "17.Multifetal Pregnancy",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "18_ectopic_pregnancy",
+        "title": "18.Ectopic Pregnancy",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "19_abortion_and_medical_termination_of_pregnancy",
+        "title": "19.Abortion And Medical Termination Of Pregnancy",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "20_antepartum_hemorrhage",
+        "title": "20.Antepartum Hemorrhage",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "21_postpartum_haemorrhage",
+        "title": "21.Postpartum Haemorrhage",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "22_preterm_labor_and_postterm_pregnancy",
+        "title": "22.Preterm Labor And Postterm Pregnancy",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "23_gestational_trophoblastic_diseases",
+        "title": "23.Gestational Trophoblastic Diseases",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "24_anemia_in_pregnancy",
+        "title": "24.Anemia In Pregnancy",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "25_hypertensive_disorders_in_pregnancy",
+        "title": "25.Hypertensive Disorders In Pregnancy",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "26_diabetes_in_pregnancy",
+        "title": "26.Diabetes In Pregnancy",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "27_cardiovascular_conditions_in_pregnancy",
+        "title": "27.Cardiovascular Conditions In Pregnancy",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "28_rhesus_isoimmunization",
+        "title": "28.Rhesus Isoimmunization",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "29_hepatic_disorders_and_infections_in_pregnancy",
+        "title": "29.Hepatic Disorders And Infections In Pregnancy",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "30_disorders_of_menstruation",
+        "title": "30.Disorders Of Menstruation",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "31_uro_gynecology",
+        "title": "31.Uro Gynecology",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "32_prolapse",
+        "title": "32.Prolapse",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "33_fibroid",
+        "title": "33.Fibroid",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "34_endometriosis_and_adenomyosis",
+        "title": "34.Endometriosis And Adenomyosis",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "35_disorders_of_ovary",
+        "title": "35.Disorders Of Ovary",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "36_contraception_and_sterilization",
+        "title": "36.Contraception And Sterilization",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "37_vaginal_infections",
+        "title": "37.Vaginal Infections",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "38_vulval_infections",
+        "title": "38.Vulval Infections",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "39_pelvic_inflammatory_disease",
+        "title": "39.Pelvic Inflammatory Disease",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "40_genital_tuberculosis",
+        "title": "40.Genital Tuberculosis",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "41_infertility",
+        "title": "41.Infertility",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "42_perimenopause__menopause_and_post_menopausal_bleeding",
+        "title": "42.Perimenopause, Menopause And Post Menopausal Bleeding",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "43_ovarian_tumors",
+        "title": "43.Ovarian Tumors",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "44_vulval___vaginal_malignancy",
+        "title": "44.Vulval & Vaginal Malignancy",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "45_carcinoma_cervix",
+        "title": "45.Carcinoma Cervix",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "46_carcinoma_endometrium",
+        "title": "46.Carcinoma Endometrium",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "47_instruments",
+        "title": "47.Instruments",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      }
+    ],
+    "display_name": "Obstetrics & Gynaecology",
+    "description": "Antenatal care, high-risk pregnancy, labor, gynecological oncology, endocrinology, and contraception.",
+    "high_yield_topics": [
+      "Hypertensive Disorders of Pregnancy",
+      "Obstetric Hemorrhage (APH/PPH)",
+      "Gynae Oncology",
+      "Infertility"
+    ],
+    "neet_weightage": "30 MCQs",
+    "fmge_weightage": "30 MCQs"
+  },
+  {
+    "filename": "6. Paediatrics Qbank.html",
+    "subject": "Paediatrics",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-amber-500",
+    "accent_text": "text-amber-500",
+    "icon": "child",
+    "total_tests": 39,
+    "total_questions": 800,
+    "total_duration": 1190,
+    "tests": [
+      {
+        "id": "1_basics_of_neonatology_and_routine_newborn_care",
+        "title": "1.Basics Of Neonatology And Routine Newborn Care",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "2_disorders_of_newborn",
+        "title": "2.Disorders Of Newborn",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "3_diseases_in_neonates_requiring_special_care",
+        "title": "3.Diseases In Neonates Requiring Special Care",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "4_apgar_score_and_neonatal_resuscitation",
+        "title": "4.Apgar Score And Neonatal Resuscitation",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "5_developmental_milestones",
+        "title": "5.Developmental Milestones",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "6_facets_of_growth_and_development",
+        "title": "6.Facets Of Growth And Development",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "7_nutrition_and_breastfeeding",
+        "title": "7.Nutrition And Breastfeeding",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "8_protein_energy_malnutrition",
+        "title": "8.Protein Energy Malnutrition",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "9_deficiency_of_fat_soluble_vitamins",
+        "title": "9.Deficiency Of Fat Soluble Vitamins",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "10_deficiency_of_water_soluble_vitamins___trace_elements",
+        "title": "10.Deficiency Of Water Soluble Vitamins & Trace Elements",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "11_fluid_and_electrolyte_disorders",
+        "title": "11.Fluid And Electrolyte Disorders",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "12_mendelian_and_non_mendelian_disorders",
+        "title": "12.Mendelian And Non Mendelian Disorders",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "13_chromosomal_disorders",
+        "title": "13.Chromosomal Disorders",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "14_metabolic_disorders_of_amino_acids",
+        "title": "14.Metabolic Disorders Of Amino Acids",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "15_metabolic_disorders_of_urea_cycle__complex_molecules__and_carbohydrates",
+        "title": "15.Metabolic Disorders Of Urea Cycle, Complex Molecules, And Carbohydrates",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "16_polio_and_aids",
+        "title": "16.Polio And Aids",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "17_pediatric_bacterial_and_parasitic_infections",
+        "title": "17.Pediatric Bacterial And Parasitic Infections",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "18_measles__mumps__rubella_and_other_viral_infections",
+        "title": "18.Measles, Mumps, Rubella And Other Viral Infections",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "19_surgical_gi_disorders",
+        "title": "19.Surgical Gi Disorders",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "20_medical_gi_disorders",
+        "title": "20.Medical Gi Disorders",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "21_disorders_of_the_liver",
+        "title": "21.Disorders Of The Liver",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "22_neonatal_respiratory_disorders",
+        "title": "22.Neonatal Respiratory Disorders",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "23_childhood_respiratory_disorders",
+        "title": "23.Childhood Respiratory Disorders",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "24_fetal_circulation",
+        "title": "24.Fetal Circulation",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "25_acyanotic_congenital_heart_diseases",
+        "title": "25.Acyanotic Congenital Heart Diseases",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "26_cyanotic_congenital_heart_diseases",
+        "title": "26.Cyanotic Congenital Heart Diseases",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "27_pediatric_nephrology",
+        "title": "27.Pediatric Nephrology",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "28_pediatric_urology",
+        "title": "28.Pediatric Urology",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "29_disorders_of_the_nervous_system",
+        "title": "29.Disorders Of The Nervous System",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "30_disorders_of_thyroid",
+        "title": "30.Disorders Of Thyroid",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "31_congenital_adrenal_hyperplasia_and_related_disorders",
+        "title": "31.Congenital Adrenal Hyperplasia And Related Disorders",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "32_disorders_of_the_pituitary_gland",
+        "title": "32.Disorders Of The Pituitary Gland",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "33_disorders_of_puberty",
+        "title": "33.Disorders Of Puberty",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "34_paediatric_hemato_oncology",
+        "title": "34.Paediatric Hemato Oncology",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "35_solid_neoplasms_of_childhood",
+        "title": "35.Solid Neoplasms Of Childhood",
+        "num_questions": 34,
+        "duration": 44,
+        "total_marks": 136
+      },
+      {
+        "id": "36_musculoskeletal_disorders",
+        "title": "36.Musculoskeletal Disorders",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "37_paediatric_rheumatology",
+        "title": "37.Paediatric Rheumatology",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "38_pediatric_hematology___introduction__bleeding__and_clotting_disorders",
+        "title": "38.Pediatric Hematology   Introduction, Bleeding, And Clotting Disorders",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "39_pediatric_anemias",
+        "title": "39.Pediatric Anemias",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      }
+    ],
+    "display_name": "Paediatrics & Neonatology",
+    "description": "Neonatal resuscitation, milestones, congenital heart disease, genetics, and pediatric infections.",
+    "high_yield_topics": [
+      "Neonatal Resuscitation",
+      "Growth & Developmental Milestones",
+      "Congenital Heart Defects",
+      "Genetic Disorders"
+    ],
+    "neet_weightage": "10 MCQs",
+    "fmge_weightage": "15 MCQs"
+  },
+  {
+    "filename": "13. Orthopaedics Qbank.html",
+    "subject": "Orthopaedics",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-orange-500",
+    "accent_text": "text-orange-500",
+    "icon": "bone",
+    "total_tests": 31,
+    "total_questions": 501,
+    "total_duration": 811,
+    "tests": [
+      {
+        "id": "1_basics_of_fracture_and_its_management",
+        "title": "1.Basics Of Fracture And Its Management",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "2_complications_of_fracture",
+        "title": "2.Complications Of Fracture",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "3_regional_conditions_of_neck",
+        "title": "3.Regional Conditions Of Neck",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "4_injuries_of__clavicle__shoulder_and_arm",
+        "title": "4.Injuries Of  Clavicle, Shoulder And Arm",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "5_injuries_of_elbow_and_forearm",
+        "title": "5.Injuries Of Elbow And Forearm",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "6_injuries_of_hand",
+        "title": "6.Injuries Of Hand",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "7_regional_conditions_of_the_upper_limb",
+        "title": "7.Regional Conditions Of The Upper Limb",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "8_dislocations_of_the_hip_joint",
+        "title": "8.Dislocations Of The Hip Joint",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "9_fractures_of_femur",
+        "title": "9.Fractures Of Femur",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "10_injuries_of_knee__leg_and_foot",
+        "title": "10.Injuries Of Knee, Leg And Foot",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "11_avn_and_regional_conditions_of_lower_limb",
+        "title": "11.Avn And Regional Conditions Of Lower Limb",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "12_injuries_of_spine",
+        "title": "12.Injuries Of Spine",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "13_regional_conditions_of_spine",
+        "title": "13.Regional Conditions Of Spine",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "14_spondylolisthesis___ivdp",
+        "title": "14.Spondylolisthesis & Ivdp",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "15_injuries_of_pelvis",
+        "title": "15.Injuries Of Pelvis",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "16_infections_of_the_bone",
+        "title": "16.Infections Of The Bone",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "17_skeletal_tuberculosis",
+        "title": "17.Skeletal Tuberculosis",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "18_fractures_in_children",
+        "title": "18.Fractures In Children",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "19_ctev__genu_varum_and_valgum",
+        "title": "19.Ctev, Genu Varum And Valgum",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "20_congenital_malformations__perthes_disease_and_scfe",
+        "title": "20.Congenital Malformations, Perthes Disease And Scfe",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "21_metabolic_bone_diseases_in_children",
+        "title": "21.Metabolic Bone Diseases In Children",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "22_osteoporosis_and_osteomalacia",
+        "title": "22.Osteoporosis And Osteomalacia",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "23_paget_s_disease_and_hyperparathyroidism",
+        "title": "23.Paget'S Disease And Hyperparathyroidism",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "24_rheumatoid_arthritis_and_osteoarthritis",
+        "title": "24.Rheumatoid Arthritis And Osteoarthritis",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "25_spondyloarthropathies_and_crystal_arthropathies",
+        "title": "25.Spondyloarthropathies And Crystal Arthropathies",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "26_nerve_injuries",
+        "title": "26.Nerve Injuries",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "27_benign_tumors_of_bone",
+        "title": "27.Benign Tumors Of Bone",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "28_malignant_tumors_of_bone",
+        "title": "28.Malignant Tumors Of Bone",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "29_implants__splints_and_traction",
+        "title": "29.Implants, Splints And Traction",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "30_trauma_amputations__prosthetics_and_joint_replacement_surgery",
+        "title": "30.Trauma Amputations, Prosthetics And Joint Replacement Surgery",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "31_sports_injury",
+        "title": "31.Sports Injury",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      }
+    ],
+    "display_name": "Orthopaedics & Traumatology",
+    "description": "Fractures, dislocations, pediatric orthopaedics, bone tumors, infections, and sports medicine.",
+    "high_yield_topics": [
+      "Upper & Lower Limb Fractures",
+      "Bone Tumors & Radiology",
+      "Pediatric Hip Disorders",
+      "Spine & Nerve Injuries"
+    ],
+    "neet_weightage": "10 MCQs",
+    "fmge_weightage": "5 MCQs"
+  },
+  {
+    "filename": "14. ENT Qbank.html",
+    "subject": "ENT",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-yellow-500",
+    "accent_text": "text-yellow-500",
+    "icon": "ear",
+    "total_tests": 38,
+    "total_questions": 703,
+    "total_duration": 1083,
+    "tests": [
+      {
+        "id": "1_embryology_of_ear_and_malformations",
+        "title": "1.Embryology Of Ear And Malformations",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "2_anatomy_of_external_ear",
+        "title": "2.Anatomy Of External Ear",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "3_anatomy_of_middle_ear",
+        "title": "3.Anatomy Of Middle Ear",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "4_anatomy_of_mastoid",
+        "title": "4.Anatomy Of Mastoid",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "5_anatomy_of_inner_ear",
+        "title": "5.Anatomy Of Inner Ear",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "6_disorders_of_external_ear",
+        "title": "6.Disorders Of External Ear",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "7_disorders_of_middle_ear",
+        "title": "7.Disorders Of Middle Ear",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "8_cholesteatoma_and_types_of_csom",
+        "title": "8.Cholesteatoma And Types Of Csom",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "9_csom___treatment_and_complications",
+        "title": "9.Csom   Treatment And Complications",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "10_otosclerosis",
+        "title": "10.Otosclerosis",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "11_meniere_s_disease",
+        "title": "11.Meniere\u2019S Disease",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "12_tumors_of_ear",
+        "title": "12.Tumors Of Ear",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "13_anatomy_of_facial_nerve",
+        "title": "13.Anatomy Of Facial Nerve",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "14_facial_nerve_disorders",
+        "title": "14.Facial Nerve Disorders",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "15_eustachian_tube",
+        "title": "15.Eustachian Tube",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "16_physiology_of_hearing_and_tuning_fork_tests",
+        "title": "16.Physiology Of Hearing And Tuning Fork Tests",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "17_audiometric_tests_and_special_tests_of_hearing",
+        "title": "17.Audiometric Tests And Special Tests Of Hearing",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "18_anatomy_of_nose",
+        "title": "18.Anatomy Of Nose",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "19_anatomy_of_paranasal_sinuses",
+        "title": "19.Anatomy Of Paranasal Sinuses",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "20_physiology_of_nose_and_paranasal_sinuses",
+        "title": "20.Physiology Of Nose And Paranasal Sinuses",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "21_epistaxis",
+        "title": "21.Epistaxis",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "22_congenital_anomalies_of_nose_and_disease_of_nose",
+        "title": "22.Congenital Anomalies Of Nose And Disease Of Nose",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "23_rhinitis",
+        "title": "23.Rhinitis",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "24_disorder_of_nasal_septum_and_nasal_polyposis",
+        "title": "24.Disorder Of Nasal Septum And Nasal Polyposis",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "25_trauma_of_nose_and_face",
+        "title": "25.Trauma Of Nose And Face",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "26_tumors_of_nose_and_pns",
+        "title": "26.Tumors Of Nose And Pns",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "27_sinusitis_and_its_complication",
+        "title": "27.Sinusitis And Its Complication",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "28_anatomy_and_physiology_of_pharynx",
+        "title": "28.Anatomy And Physiology Of Pharynx",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "29_adenoids",
+        "title": "29.Adenoids",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "30_tonsils",
+        "title": "30.Tonsils",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "31_abscesses_of_pharynx",
+        "title": "31.Abscesses Of Pharynx",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "32_nasopharyngeal_angiofibroma",
+        "title": "32.Nasopharyngeal Angiofibroma",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "33_nasopharyngeal_carcinoma",
+        "title": "33.Nasopharyngeal Carcinoma",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "34_anatomy_and_physiology_of_larynx",
+        "title": "34.Anatomy And Physiology Of Larynx",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "35_stridor_and_congenital_conditions_of_larynx",
+        "title": "35.Stridor And Congenital Conditions Of Larynx",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "36_voice_and_speech_disorders",
+        "title": "36.Voice And Speech Disorders",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "37_laryngeal_carcinoma",
+        "title": "37.Laryngeal Carcinoma",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "38_instruments",
+        "title": "38.Instruments",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      }
+    ],
+    "display_name": "ENT (Otorhinolaryngology)",
+    "description": "Otology, audiology, rhinology, head & neck cancers, laryngology, and pediatric airway.",
+    "high_yield_topics": [
+      "Audiometry & Hearing Loss",
+      "CSOM & Complications",
+      "Head & Neck Cancers",
+      "Stridor & Airway"
+    ],
+    "neet_weightage": "10 MCQs",
+    "fmge_weightage": "10 MCQs"
+  },
+  {
+    "filename": "12. Ophthalmology Qbank.html",
+    "subject": "Ophthalmology",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-lime-500",
+    "accent_text": "text-lime-500",
+    "icon": "eye",
+    "total_tests": 28,
+    "total_questions": 634,
+    "total_duration": 914,
+    "tests": [
+      {
+        "id": "1_anatomy_and_development_of_eye",
+        "title": "1.Anatomy And Development Of Eye",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "2_elementary_optics_and_physiology_of_vision",
+        "title": "2.Elementary Optics And Physiology Of Vision",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "3_myopia_and_hypermetropia",
+        "title": "3.Myopia And Hypermetropia",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "4_astigmatism_and_errors_of_accomodation",
+        "title": "4.Astigmatism And Errors Of Accomodation",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "5_conjunctiva",
+        "title": "5.Conjunctiva",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "6_sclera",
+        "title": "6.Sclera",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "7_basics_of_cornea_and_infectious_keratitis",
+        "title": "7.Basics Of Cornea And Infectious Keratitis",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "8_non_infectious_disorders_of_cornea",
+        "title": "8.Non Infectious Disorders Of Cornea",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "9_retinal_vascular_disorders_and_retinal_detachment",
+        "title": "9.Retinal Vascular Disorders And Retinal Detachment",
+        "num_questions": 35,
+        "duration": 45,
+        "total_marks": 140
+      },
+      {
+        "id": "10_macular_disorders__retinal_dystrophies__and_vitreal_disorders",
+        "title": "10.Macular Disorders, Retinal Dystrophies, And Vitreal Disorders",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "11_lens___introduction__types_of_cataract_and_clinical_features",
+        "title": "11.Lens   Introduction, Types Of Cataract And Clinical Features",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "12_lens___cataract_surgery__complications_and_iols",
+        "title": "12.Lens   Cataract Surgery, Complications And Iols",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "13_glaucoma",
+        "title": "13.Glaucoma",
+        "num_questions": 35,
+        "duration": 45,
+        "total_marks": 140
+      },
+      {
+        "id": "14_uveitis___anterior_and_intermediate",
+        "title": "14.Uveitis   Anterior And Intermediate",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "15_uveitis___posterior_and_panuveitis",
+        "title": "15.Uveitis   Posterior And Panuveitis",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "16_disorders_of_the_eyelid",
+        "title": "16.Disorders Of The Eyelid",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "17_disorders_of_lacrimal_apparatus_and_glands_of_the_eye",
+        "title": "17.Disorders Of Lacrimal Apparatus And Glands Of The Eye",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "18_orbit_anatomy_and_ocular_injuries",
+        "title": "18.Orbit Anatomy And Ocular Injuries",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "19_diseases_of_the_orbit",
+        "title": "19.Diseases Of The Orbit",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "20_strabismus___introduction__symptomatology__and_evaluation",
+        "title": "20.Strabismus   Introduction, Symptomatology, And Evaluation",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "21_strabismus___types_and_treatment",
+        "title": "21.Strabismus   Types And Treatment",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "22_disorders_of_visual_pathway_and_pupillary_reflexes",
+        "title": "22.Disorders Of Visual Pathway And Pupillary Reflexes",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "23_disorders_of_optic_nerve_and_gaze_palsies",
+        "title": "23.Disorders Of Optic Nerve And Gaze Palsies",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "24_tumors_of_eye",
+        "title": "24.Tumors Of Eye",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "25_practical_ophthalmology",
+        "title": "25.Practical Ophthalmology",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "26_eye_signs_in_systemic_disease",
+        "title": "26.Eye Signs In Systemic Disease",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "27_community_ophthalmology",
+        "title": "27.Community Ophthalmology",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "28_instruments_in_ophthalmology",
+        "title": "28.Instruments In Ophthalmology",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      }
+    ],
+    "display_name": "Ophthalmology",
+    "description": "Optics, cornea, cataract, glaucoma, retina, neuro-ophthalmology, and ocular trauma.",
+    "high_yield_topics": [
+      "Glaucoma Management",
+      "Diabetic Retinopathy & Retina",
+      "Corneal Ulcers",
+      "Neuro-Ophthalmology"
+    ],
+    "neet_weightage": "10 MCQs",
+    "fmge_weightage": "10 MCQs"
+  },
+  {
+    "filename": "18. Dermatology Qbank.html",
+    "subject": "Dermatology",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-green-500",
+    "accent_text": "text-green-500",
+    "icon": "sun",
+    "total_tests": 23,
+    "total_questions": 510,
+    "total_duration": 740,
+    "tests": [
+      {
+        "id": "1_anatomy___physiology_of_skin",
+        "title": "1.Anatomy & Physiology Of Skin",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "2_dermatopathology_of_skin_lesions",
+        "title": "2.Dermatopathology Of Skin Lesions",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "3_morphology_and_investigations_of_skin_lesions",
+        "title": "3.Morphology And Investigations Of Skin Lesions",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "4_acne__rosacea_and_others",
+        "title": "4.Acne, Rosacea And Others",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "5_disorders_of_hair_and_nails",
+        "title": "5.Disorders Of Hair And Nails",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "6_disorders_of_skin_pigmentation",
+        "title": "6.Disorders Of Skin Pigmentation",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "7_dermatitis",
+        "title": "7.Dermatitis",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "8_urticaria___angioedema",
+        "title": "8.Urticaria & Angioedema",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "9_reactive_skin_diseases_and_drug_eruptions",
+        "title": "9.Reactive Skin Diseases And Drug Eruptions",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "10_papulosquamous_disorders",
+        "title": "10.Papulosquamous Disorders",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "11_psoriasis",
+        "title": "11.Psoriasis",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "12_vesiculobullous_diseases",
+        "title": "12.Vesiculobullous Diseases",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "13_mycobacterial_infections",
+        "title": "13.Mycobacterial Infections",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "14_bacterial_infections",
+        "title": "14.Bacterial Infections",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "15_viral_infections",
+        "title": "15.Viral Infections",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "16_fungal_and_protozoal_infections",
+        "title": "16.Fungal And Protozoal Infections",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      },
+      {
+        "id": "17_arthropod_and_parasitic_infections",
+        "title": "17.Arthropod And Parasitic Infections",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "18_syphilis",
+        "title": "18.Syphilis",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "19_non_syphilitic_sexually_transmitted_diseases",
+        "title": "19.Non Syphilitic Sexually Transmitted Diseases",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "20_genodermatoses___nutritional_disorders",
+        "title": "20.Genodermatoses & Nutritional Disorders",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "21_connective_tissue_disorders",
+        "title": "21.Connective Tissue Disorders",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "22_skin_malignancies",
+        "title": "22.Skin Malignancies",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "23_systemic_diseases_and_skin",
+        "title": "23.Systemic Diseases And Skin",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      }
+    ],
+    "display_name": "Dermatology & Venereology",
+    "description": "Papulosquamous disorders, vesiculobullous, STIs, leprosy, cutaneous malignancies, and therapeutics.",
+    "high_yield_topics": [
+      "Pemphigus vs Pemphigoid",
+      "Psoriasis & Lichen Planus",
+      "Leprosy & Reactions",
+      "Sexually Transmitted Infections"
+    ],
+    "neet_weightage": "5 MCQs",
+    "fmge_weightage": "5 MCQs"
+  },
+  {
+    "filename": "19. Psychiatry Qbank.html",
+    "subject": "Psychiatry",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-sky-500",
+    "accent_text": "text-sky-500",
+    "icon": "brain",
+    "total_tests": 33,
+    "total_questions": 434,
+    "total_duration": 764,
+    "tests": [
+      {
+        "id": "1_theories_of_personality___defense_mechanisms",
+        "title": "1.Theories Of Personality & Defense Mechanisms",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "2_symptoms_and_clinical_manifestations_in_psychiatry",
+        "title": "2.Symptoms And Clinical Manifestations In Psychiatry",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "3_assessment_in_psychiatry",
+        "title": "3.Assessment In Psychiatry",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "4_specific_treatment_modalities",
+        "title": "4.Specific Treatment Modalities",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "5_neuropsychiatric_aspects_of_systemic_disorders",
+        "title": "5.Neuropsychiatric Aspects Of Systemic Disorders",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "6_schizophrenia",
+        "title": "6.Schizophrenia",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "7_other_psychotic_disorders",
+        "title": "7.Other Psychotic Disorders",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "8_delirium",
+        "title": "8.Delirium",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "9_dementia",
+        "title": "9.Dementia",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "10_amnestic_disorders_and_other_neurocognitive_disorders",
+        "title": "10.Amnestic Disorders And Other Neurocognitive Disorders",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "11_depressive_disorders",
+        "title": "11.Depressive Disorders",
+        "num_questions": 30,
+        "duration": 40,
+        "total_marks": 120
+      },
+      {
+        "id": "12_bipolar_and_related_disorders",
+        "title": "12.Bipolar And Related Disorders",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "13_alcohol_related_disorders",
+        "title": "13.Alcohol Related Disorders",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "14_other_substance_use_disorders",
+        "title": "14.Other Substance Use Disorders",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "15_anxiety_disorders",
+        "title": "15.Anxiety Disorders",
+        "num_questions": 14,
+        "duration": 24,
+        "total_marks": 56
+      },
+      {
+        "id": "16_obsessive_compulsive_and_related_disorders",
+        "title": "16.Obsessive Compulsive And Related Disorders",
+        "num_questions": 17,
+        "duration": 27,
+        "total_marks": 68
+      },
+      {
+        "id": "17_trauma_and_stress_related_disorders",
+        "title": "17.Trauma And Stress Related Disorders",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "18_personality_disorders",
+        "title": "18.Personality Disorders",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "19_somatoform_disorders",
+        "title": "19.Somatoform Disorders",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "20_factitious_disorders__malingering_and_criminality",
+        "title": "20.Factitious Disorders, Malingering And Criminality",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "21_dissociative_disorders",
+        "title": "21.Dissociative Disorders",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "22_sleep_disorders",
+        "title": "22.Sleep Disorders",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "23_eating_disorders",
+        "title": "23.Eating Disorders",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "24_impulse_control_disorders",
+        "title": "24.Impulse Control Disorders",
+        "num_questions": 7,
+        "duration": 17,
+        "total_marks": 28
+      },
+      {
+        "id": "25_psychiatric_emergencies",
+        "title": "25.Psychiatric Emergencies",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "26_normal_sexuality_and_sexual_dysfunction",
+        "title": "26.Normal Sexuality And Sexual Dysfunction",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "27_sexual_disorders_and_sexual_abuse",
+        "title": "27.Sexual Disorders And Sexual Abuse",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "28_intellectual_disability___specific_learning_disorders",
+        "title": "28.Intellectual Disability & Specific Learning Disorders",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "29_autism_spectrum_disorder",
+        "title": "29.Autism Spectrum Disorder",
+        "num_questions": 6,
+        "duration": 16,
+        "total_marks": 24
+      },
+      {
+        "id": "30_attention_deficit_disorders_and_disruptive_behaviour",
+        "title": "30.Attention Deficit Disorders And Disruptive Behaviour",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "31_neurodevelopmental_motor_disorders",
+        "title": "31.Neurodevelopmental Motor Disorders",
+        "num_questions": 8,
+        "duration": 18,
+        "total_marks": 32
+      },
+      {
+        "id": "32_special_areas_of_childhood_mental_health",
+        "title": "32.Special Areas Of Childhood Mental Health",
+        "num_questions": 9,
+        "duration": 19,
+        "total_marks": 36
+      },
+      {
+        "id": "33_forensic_psychiatry",
+        "title": "33.Forensic Psychiatry",
+        "num_questions": 8,
+        "duration": 18,
+        "total_marks": 32
+      }
+    ],
+    "display_name": "Psychiatry & Behavioral Science",
+    "description": "Schizophrenia, mood disorders, substance abuse, neurocognitive disorders, and psychopharmacology.",
+    "high_yield_topics": [
+      "Schizophrenia & Antipsychotics",
+      "Bipolar & Mood Stabilizers",
+      "Substance Dependence & Withdrawal",
+      "Neurocognitive Disorders"
+    ],
+    "neet_weightage": "5 MCQs",
+    "fmge_weightage": "5 MCQs"
+  },
+  {
+    "filename": "17.Radiology Qbank.html",
+    "subject": "Radiology",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-blue-600",
+    "accent_text": "text-blue-600",
+    "icon": "scan",
+    "total_tests": 15,
+    "total_questions": 311,
+    "total_duration": 461,
+    "tests": [
+      {
+        "id": "1_fundamentals_of_x_ray_and_ct",
+        "title": "1.Fundamentals Of X Ray And Ct",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "2_fundamentals_of_usg_and_mri",
+        "title": "2.Fundamentals Of Usg And Mri",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "3_musculosketal_system",
+        "title": "3.Musculosketal System",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "4_pleural_effusion__pneumothorax__pulmonary_edema_and_pulmonary_embolism",
+        "title": "4.Pleural Effusion, Pneumothorax, Pulmonary Edema And Pulmonary Embolism",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "5_lung_infections__sarcoidosis_and_lung_cancer",
+        "title": "5.Lung Infections, Sarcoidosis And Lung Cancer",
+        "num_questions": 21,
+        "duration": 31,
+        "total_marks": 84
+      },
+      {
+        "id": "6_cardiovascular_system",
+        "title": "6.Cardiovascular System",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "7_congenital_neural_anomalies__neurocutaneous_disorders___cerebrovascular_disorders",
+        "title": "7.Congenital Neural Anomalies, Neurocutaneous Disorders & Cerebrovascular Disorders",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "8_brain_tumors__neurodegenerative___demyelinating_disorders",
+        "title": "8.Brain Tumors, Neurodegenerative & Demyelinating Disorders",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "9_upper_gi_radiology_and_pneumoperitoneum",
+        "title": "9.Upper Gi Radiology And Pneumoperitoneum",
+        "num_questions": 19,
+        "duration": 29,
+        "total_marks": 76
+      },
+      {
+        "id": "10_lower_gi_radiology",
+        "title": "10.Lower Gi Radiology",
+        "num_questions": 18,
+        "duration": 28,
+        "total_marks": 72
+      },
+      {
+        "id": "11_hepatobiliary_and_pancreatic_radiology",
+        "title": "11.Hepatobiliary And Pancreatic Radiology",
+        "num_questions": 16,
+        "duration": 26,
+        "total_marks": 64
+      },
+      {
+        "id": "12_nephroradiology",
+        "title": "12.Nephroradiology",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "13_obg_radiology",
+        "title": "13.Obg Radiology",
+        "num_questions": 11,
+        "duration": 21,
+        "total_marks": 44
+      },
+      {
+        "id": "14_radiotherapy",
+        "title": "14.Radiotherapy",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "15_nuclear_medicine",
+        "title": "15.Nuclear Medicine",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      }
+    ],
+    "display_name": "Radio-Diagnosis & Imaging",
+    "description": "X-ray interpretation, CT, MRI, ultrasound, radiation safety, and nuclear medicine.",
+    "high_yield_topics": [
+      "Emergency Chest Radiology",
+      "Neuroimaging (CT/MRI Signs)",
+      "Radiation Physics & Protection",
+      "Contrast Media"
+    ],
+    "neet_weightage": "5 MCQs",
+    "fmge_weightage": "5 MCQs"
+  },
+  {
+    "filename": "15. Anaesthesia Qbank.html",
+    "subject": "Anaesthesia",
+    "category": "Clinical Specialties",
+    "phase": "Phase III & IV",
+    "accent_bg": "bg-slate-600",
+    "accent_text": "text-slate-600",
+    "icon": "syringe",
+    "total_tests": 25,
+    "total_questions": 551,
+    "total_duration": 801,
+    "tests": [
+      {
+        "id": "1_history_and_ethical_aspects_of_anaesthesia",
+        "title": "1.History And Ethical Aspects Of Anaesthesia",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "2_preoperative_evaluation",
+        "title": "2.Preoperative Evaluation",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "3_cns_and_cvs_monitoring_in_anaesthesia",
+        "title": "3.Cns And Cvs Monitoring In Anaesthesia",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "4_respiratory_monitoring_in_anaesthesia",
+        "title": "4.Respiratory Monitoring In Anaesthesia",
+        "num_questions": 15,
+        "duration": 25,
+        "total_marks": 60
+      },
+      {
+        "id": "5_airway_devices",
+        "title": "5.Airway Devices",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "6_intubation",
+        "title": "6.Intubation",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "7_breathing_systems",
+        "title": "7.Breathing Systems",
+        "num_questions": 13,
+        "duration": 23,
+        "total_marks": 52
+      },
+      {
+        "id": "8_anesthesia_workstation",
+        "title": "8.Anesthesia Workstation",
+        "num_questions": 31,
+        "duration": 41,
+        "total_marks": 124
+      },
+      {
+        "id": "9_bls_and_pals",
+        "title": "9.Bls And Pals",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "10_acls",
+        "title": "10.Acls",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "11_ventilation_and_o2_delivery_systems",
+        "title": "11.Ventilation And O2 Delivery Systems",
+        "num_questions": 10,
+        "duration": 20,
+        "total_marks": 40
+      },
+      {
+        "id": "12_depolarising_muscle_relaxants",
+        "title": "12.Depolarising Muscle Relaxants",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "13_non_depolarising_muscle_relaxants",
+        "title": "13.Non Depolarising Muscle Relaxants",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "14_inhaled_anaesthetics___properties__n2o_and_halothane",
+        "title": "14.Inhaled Anaesthetics   Properties, N2O And Halothane",
+        "num_questions": 25,
+        "duration": 35,
+        "total_marks": 100
+      },
+      {
+        "id": "15_inhaled_anaesthetics___fluorinated_agents__inert_agents_and_therapeutic_gases",
+        "title": "15.Inhaled Anaesthetics   Fluorinated Agents, Inert Agents And Therapeutic Gases",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "16_intravenous_anesthesia___barbiturates__benzodiazepines___propofol",
+        "title": "16.Intravenous Anesthesia   Barbiturates, Benzodiazepines & Propofol",
+        "num_questions": 28,
+        "duration": 38,
+        "total_marks": 112
+      },
+      {
+        "id": "17_intravenous_anesthesia___etomidate__ketamine_and_daycare_surgery",
+        "title": "17.Intravenous Anesthesia   Etomidate, Ketamine And Daycare Surgery",
+        "num_questions": 27,
+        "duration": 37,
+        "total_marks": 108
+      },
+      {
+        "id": "18_local_anaesthetics___general_properties",
+        "title": "18.Local Anaesthetics   General Properties",
+        "num_questions": 20,
+        "duration": 30,
+        "total_marks": 80
+      },
+      {
+        "id": "19_local_anesthetics___specific_drugs",
+        "title": "19.Local Anesthetics   Specific Drugs",
+        "num_questions": 24,
+        "duration": 34,
+        "total_marks": 96
+      },
+      {
+        "id": "20_regional_anesthesia__techniques",
+        "title": "20.Regional Anesthesia  Techniques",
+        "num_questions": 22,
+        "duration": 32,
+        "total_marks": 88
+      },
+      {
+        "id": "21_regional_anesthesia__complications_and_contraindications",
+        "title": "21.Regional Anesthesia  Complications And Contraindications",
+        "num_questions": 23,
+        "duration": 33,
+        "total_marks": 92
+      },
+      {
+        "id": "22_peripheral_nerve_blocks",
+        "title": "22.Peripheral Nerve Blocks",
+        "num_questions": 12,
+        "duration": 22,
+        "total_marks": 48
+      },
+      {
+        "id": "23_anaesthetic_implication_of_concurrent_diseases",
+        "title": "23.Anaesthetic Implication Of Concurrent Diseases",
+        "num_questions": 32,
+        "duration": 42,
+        "total_marks": 128
+      },
+      {
+        "id": "24_pediatric_and_obstetric_anaesthesia",
+        "title": "24.Pediatric And Obstetric Anaesthesia",
+        "num_questions": 26,
+        "duration": 36,
+        "total_marks": 104
+      },
+      {
+        "id": "25_complications_of_anaesthesia",
+        "title": "25.Complications Of Anaesthesia",
+        "num_questions": 29,
+        "duration": 39,
+        "total_marks": 116
+      }
+    ],
+    "display_name": "Anaesthesiology & Critical Care",
+    "description": "General & regional anaesthesia, airway management, ICU monitoring, CPR, and IV fluids.",
+    "high_yield_topics": [
+      "Difficult Airway & Intubation",
+      "Local & Spinal Anesthesia",
+      "BLS & ACLS Guidelines",
+      "ICU Mechanical Ventilation"
+    ],
+    "neet_weightage": "5 MCQs",
+    "fmge_weightage": "5 MCQs"
+  }
+]
