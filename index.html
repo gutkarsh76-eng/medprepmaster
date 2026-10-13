@@ -973,6 +973,9 @@
             } else if (hash.startsWith('#subject=')) {
                 const s = decodeURIComponent(hash.slice(9));
                 openSubjectDrawer(s);
+            } else if (hash.startsWith('#test=')) {
+                const parts = decodeURIComponent(hash.slice(6)).split('|');
+                launchSubjectTest(parts[0], parts[1], parts[2] || parts[1]);
             }
         }
 
