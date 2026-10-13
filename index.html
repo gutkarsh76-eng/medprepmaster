@@ -130,8 +130,8 @@
         }
     </style>
 
-    <!-- Indexed Databases (Deferred for instant page render) -->
-    <script defer src="pdf_page_index.js"></script>
+    <!-- Indexed Databases -->
+    <script src="pdf_page_index.js"></script>
     <script defer src="questions_data.js"></script>
     <script defer src="test_series_questions.js"></script>
 </head>
@@ -925,6 +925,12 @@
                     e.preventDefault();
                     focusSearch();
                 } else if (e.key === 'Escape') {
+                    const trModal = document.getElementById('test-runner-modal');
+                    if (trModal && !trModal.classList.contains('hidden')) {
+                        closeTestRunner();
+                        return;
+                    }
+                    closePdfModal();
                     clearSearch();
                     closeSubjectDrawer();
                     closeTestSeriesDrawer();
@@ -1160,7 +1166,16 @@
         let currentPdfTitle = '';
 
         function initNotesReader() {
-            if (!window.PDF_INDEX || !window.PDF_INDEX.subjects) return;
+            if (!window.PDF_INDEX || !window.PDF_INDEX.subjects) {
+                setTimeout(() => {
+                    if (window.PDF_INDEX && window.PDF_INDEX.subjects) {
+                        renderNotesSubjectPills();
+                        renderAllBooksGrid();
+                        loadNotesSubject(currentNotesSubject);
+                    }
+                }, 150);
+                return;
+            }
             renderNotesSubjectPills();
             renderAllBooksGrid();
             loadNotesSubject(currentNotesSubject);
@@ -1430,7 +1445,14 @@
             document.getElementById('drawer-phase').textContent = currentDrawerSubject.phase;
             document.getElementById('drawer-stats').textContent = `${currentDrawerSubject.total_tests} Tests • ${currentDrawerSubject.total_questions} MCQs`;
             document.getElementById('drawer-icon').innerHTML = currentDrawerSubject.svg_icon;
-            document.getElementById('drawer-open-full-btn').href = currentDrawerSubject.filename;
+            
+            const drawerBtn = document.getElementById('drawer-open-full-btn');
+            if (drawerBtn) {
+                drawerBtn.onclick = (e) => {
+                    e.preventDefault();
+                    launchSubjectFirstTest(currentDrawerSubject);
+                };
+            }
 
             // Update chapter count in drawer notes banner
             const subjNotes = (window.SUBJECT_NOTES || []).find(s => s.subject === subjName);
@@ -1480,9 +1502,9 @@
                             <span>${t.total_marks} marks</span>
                         </div>
                     </div>
-                    <a href="${currentDrawerSubject.filename}#${t.id}" class="px-3 py-1.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shrink-0 shadow-sm transition">
-                        Start Test →
-                    </a>
+                    <button onclick="launchSubjectTest('${escapeAttr(currentDrawerSubject.subject)}', '${escapeAttr(t.id)}', '${escapeAttr(t.title)}')" class="px-3 py-1.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shrink-0 shadow-sm transition flex items-center gap-1 cursor-pointer">
+                        <span>Start Test</span> <span>→</span>
+                    </button>
                 `;
                 container.appendChild(item);
             });
@@ -1494,7 +1516,14 @@
 
             document.getElementById('ts-drawer-title').textContent = `Test Series (${currentDrawerYear.year})`;
             document.getElementById('ts-drawer-stats').textContent = `${currentDrawerYear.total_tests} Tests • ${currentDrawerYear.total_questions.toLocaleString()} MCQs`;
-            document.getElementById('ts-drawer-open-full-btn').href = currentDrawerYear.filename;
+            
+            const tsDrawerBtn = document.getElementById('ts-drawer-open-full-btn');
+            if (tsDrawerBtn) {
+                tsDrawerBtn.onclick = (e) => {
+                    e.preventDefault();
+                    launchTestSeriesFirstTest(currentDrawerYear);
+                };
+            }
 
             filterTestSeriesDrawerTests('');
             document.getElementById('test-series-drawer').classList.remove('hidden');
@@ -1531,9 +1560,9 @@
                             <span>${t.total_marks} marks</span>
                         </div>
                     </div>
-                    <a href="${currentDrawerYear.filename}#${t.id}" class="px-3 py-1.5 rounded-xl bg-violet-600 hover:bg-violet-700 text-white text-xs font-bold shrink-0 shadow-sm transition">
-                        Start Mock →
-                    </a>
+                    <button onclick="launchTestSeries('${escapeAttr(currentDrawerYear.year)}', '${escapeAttr(t.id)}', '${escapeAttr(t.title)}')" class="px-3 py-1.5 rounded-xl bg-violet-600 hover:bg-violet-700 text-white text-xs font-bold shrink-0 shadow-sm transition flex items-center gap-1 cursor-pointer">
+                        <span>Start Mock</span> <span>→</span>
+                    </button>
                 `;
                 container.appendChild(item);
             });
@@ -1543,7 +1572,7 @@
             const input = document.getElementById('qid-input');
             const qid = input.value.trim();
             if (!qid || !currentDrawerSubject) return;
-            window.location.href = `${currentDrawerSubject.filename}#question-${qid}`;
+            jumpToSubjectQid(currentDrawerSubject.subject, qid);
         }
 
         function focusSearch() {
@@ -2215,9 +2244,9 @@
                                 ${q.tt}
                             </span>
                         </div>
-                        <a href="${q.f}#${q.tid}" class="text-xs font-bold text-brand-600 dark:text-brand-400 hover:underline flex items-center gap-1 shrink-0">
+                        <button onclick="launchTestByFileOrId('${escapeAttr(q.f)}', '${escapeAttr(q.tid)}', '${escapeAttr(q.tt)}', '${escapeAttr(q.s)}', ${q.n})" class="text-xs font-bold text-brand-600 dark:text-brand-400 hover:underline flex items-center gap-1 shrink-0 cursor-pointer">
                             <span>Open in Test Suite →</span>
-                        </a>
+                        </button>
                     </div>
 
                     <p class="text-sm font-semibold text-slate-900 dark:text-white leading-relaxed mb-4">
@@ -2282,9 +2311,9 @@
                             <span>${item.marks} marks</span>
                         </div>
                     </div>
-                    <a href="${item.file}#${item.id}" class="mt-4 px-3 py-2 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-bold transition flex items-center justify-center gap-1 shadow-sm">
+                    <button onclick="launchTestByFileOrId('${escapeAttr(item.file)}', '${escapeAttr(item.id)}', '${escapeAttr(item.title)}', '${escapeAttr(item.subj)}')" class="mt-4 px-3 py-2 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-bold transition flex items-center justify-center gap-1 shadow-sm cursor-pointer">
                         <span>Launch Test Now →</span>
-                    </a>
+                    </button>
                 `;
                 grid.appendChild(card);
             });
@@ -2351,6 +2380,386 @@
                 tbody.appendChild(row);
             });
         }
+
+        // --- IN-PORTAL INTERACTIVE TEST RUNNER LOGIC ---
+        let currentRunningTest = {
+            subject: '',
+            testId: '',
+            title: '',
+            questions: [],
+            index: 0,
+            userAnswers: {},
+            isFinished: false
+        };
+
+        function escapeAttr(str) {
+            if (!str) return '';
+            return String(str).replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        }
+
+        function showTestLoadingToast(msg) {
+            let toast = document.getElementById('tr-loading-toast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'tr-loading-toast';
+                toast.className = 'fixed bottom-6 right-6 z-50 px-4 py-3 bg-slate-900 text-white rounded-2xl shadow-2xl border border-slate-700 text-xs font-bold flex items-center gap-3 animate-bounce';
+                document.body.appendChild(toast);
+            }
+            toast.innerHTML = `<span class="text-brand-400 font-bold">⚡</span> <span>${msg}</span>`;
+            toast.classList.remove('hidden');
+        }
+
+        function hideTestLoadingToast() {
+            const toast = document.getElementById('tr-loading-toast');
+            if (toast) toast.classList.add('hidden');
+        }
+
+        function launchSubjectTest(subjectName, testId, testTitle, startQIndex = 1) {
+            if (!window.ALL_QUESTIONS) {
+                showTestLoadingToast('Loading question bank (55,486 MCQs)... Please wait a moment.');
+                const checkInterval = setInterval(() => {
+                    if (window.ALL_QUESTIONS) {
+                        clearInterval(checkInterval);
+                        hideTestLoadingToast();
+                        launchSubjectTest(subjectName, testId, testTitle, startQIndex);
+                    }
+                }, 250);
+                return;
+            }
+
+            let qs = window.ALL_QUESTIONS.filter(q => q.tid === testId);
+            if (qs.length === 0) {
+                qs = window.ALL_QUESTIONS.filter(q => 
+                    q.s.toLowerCase() === (subjectName || '').toLowerCase() && 
+                    (q.tt.toLowerCase().includes((testTitle || '').toLowerCase()) || (testTitle || '').toLowerCase().includes(q.tt.toLowerCase()))
+                );
+            }
+            if (qs.length === 0 && window.TEST_SERIES_QUESTIONS) {
+                qs = window.TEST_SERIES_QUESTIONS.filter(q => q.tid === testId);
+            }
+
+            if (qs.length === 0) {
+                alert(`No questions found for ${testTitle || testId}.`);
+                return;
+            }
+
+            startTestRunner(subjectName || qs[0].s, testTitle || qs[0].tt, qs, startQIndex, testId);
+        }
+
+        function launchTestSeries(yearOrSubject, testId, testTitle, startQIndex = 1) {
+            if (!window.TEST_SERIES_QUESTIONS) {
+                showTestLoadingToast('Loading test series mock bank... Please wait a moment.');
+                const checkInterval = setInterval(() => {
+                    if (window.TEST_SERIES_QUESTIONS) {
+                        clearInterval(checkInterval);
+                        hideTestLoadingToast();
+                        launchTestSeries(yearOrSubject, testId, testTitle, startQIndex);
+                    }
+                }, 250);
+                return;
+            }
+
+            let qs = window.TEST_SERIES_QUESTIONS.filter(q => q.tid === testId);
+            if (qs.length === 0) {
+                qs = window.TEST_SERIES_QUESTIONS.filter(q => 
+                    (q.s.toLowerCase().includes((yearOrSubject || '').toLowerCase()) || (yearOrSubject || '').toLowerCase().includes(q.s.toLowerCase())) &&
+                    (q.tt.toLowerCase().includes((testTitle || '').toLowerCase()) || (testTitle || '').toLowerCase().includes(q.tt.toLowerCase()))
+                );
+            }
+            if (qs.length === 0 && window.ALL_QUESTIONS) {
+                qs = window.ALL_QUESTIONS.filter(q => q.tid === testId);
+            }
+
+            if (qs.length === 0) {
+                alert(`No questions found for ${testTitle || testId}.`);
+                return;
+            }
+
+            startTestRunner(yearOrSubject || qs[0].s, testTitle || qs[0].tt, qs, startQIndex, testId);
+        }
+
+        function launchTestByFileOrId(file, testId, testTitle, subjectName, qNum = 1) {
+            if (file && (file.includes('TEST') || file.includes('Test Series'))) {
+                launchTestSeries(subjectName, testId, testTitle, qNum);
+            } else {
+                launchSubjectTest(subjectName, testId, testTitle, qNum);
+            }
+        }
+
+        function launchSubjectFirstTest(drawerSubject) {
+            if (!drawerSubject || !drawerSubject.tests || drawerSubject.tests.length === 0) return;
+            const t = drawerSubject.tests[0];
+            launchSubjectTest(drawerSubject.subject, t.id, t.title);
+        }
+
+        function launchTestSeriesFirstTest(drawerYear) {
+            if (!drawerYear || !drawerYear.tests || drawerYear.tests.length === 0) return;
+            const t = drawerYear.tests[0];
+            launchTestSeries(drawerYear.year, t.id, t.title);
+        }
+
+        function jumpToSubjectQid(subjectName, qid) {
+            if (!window.ALL_QUESTIONS) {
+                showTestLoadingToast('Loading questions...');
+                setTimeout(() => jumpToSubjectQid(subjectName, qid), 300);
+                return;
+            }
+            const found = window.ALL_QUESTIONS.find(q => 
+                q.s.toLowerCase() === subjectName.toLowerCase() && 
+                (String(q.n) === qid || q.tid === qid || q.tid.endsWith('_' + qid))
+            );
+            if (found) {
+                launchSubjectTest(found.s, found.tid, found.tt, found.n);
+            } else {
+                alert(`Question #${qid} not found in ${subjectName}.`);
+            }
+        }
+
+        function startTestRunner(subject, title, questions, startQNum = 1, testId = '') {
+            currentRunningTest = {
+                subject: subject || 'Medical Test',
+                testId: testId || (questions[0] ? questions[0].tid : ''),
+                title: title || (questions[0] ? questions[0].tt : 'Interactive Test'),
+                questions: questions,
+                index: Math.max(0, Math.min(questions.length - 1, startQNum - 1)),
+                userAnswers: {},
+                isFinished: false
+            };
+
+            document.getElementById('tr-subj-badge').textContent = currentRunningTest.subject;
+            document.getElementById('tr-test-title').textContent = currentRunningTest.title;
+            document.getElementById('test-runner-modal').classList.remove('hidden');
+
+            // Close drawers if open
+            closeSubjectDrawer();
+            closeTestSeriesDrawer();
+
+            buildQuestionPalette();
+            renderTestRunnerQuestion();
+        }
+
+        function closeTestRunner() {
+            document.getElementById('test-runner-modal').classList.add('hidden');
+            const pal = document.getElementById('tr-palette-container');
+            if (pal) pal.classList.add('hidden');
+        }
+
+        function renderTestRunnerQuestion() {
+            const { questions, index, userAnswers } = currentRunningTest;
+            if (!questions || questions.length === 0) return;
+
+            const q = questions[index];
+            const total = questions.length;
+            const answeredCount = Object.keys(userAnswers).length;
+
+            let correctCount = 0;
+            Object.keys(userAnswers).forEach(idx => {
+                const qItem = questions[idx];
+                const userChoice = userAnswers[idx];
+                const correctLetter = (qItem.a || '').trim().charAt(0).toUpperCase();
+                if (userChoice === correctLetter) correctCount++;
+            });
+
+            // Update Progress & Score Badges
+            document.getElementById('tr-q-progress-badge').textContent = `Q ${index + 1} / ${total}`;
+            document.getElementById('tr-score-badge').textContent = `Score: ${correctCount} / ${answeredCount} (${answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0}%)`;
+            const pct = Math.round(((index + 1) / total) * 100);
+            document.getElementById('tr-progress-bar').style.width = `${pct}%`;
+
+            // Question Header
+            document.getElementById('tr-q-number-label').textContent = `QUESTION ${index + 1} OF ${total}`;
+            const isAnswered = userAnswers.hasOwnProperty(index);
+            const statusPill = document.getElementById('tr-status-pill');
+            if (isAnswered) {
+                const isCorrect = userAnswers[index] === (q.a || '').trim().charAt(0).toUpperCase();
+                statusPill.className = isCorrect 
+                    ? 'px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' 
+                    : 'px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300';
+                statusPill.textContent = isCorrect ? '✓ Correct' : '✕ Incorrect';
+            } else {
+                statusPill.className = 'px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
+                statusPill.textContent = 'Not Attempted';
+            }
+
+            // Question Text
+            document.getElementById('tr-question-text').textContent = q.q || 'Question content';
+
+            // Options
+            const optionsContainer = document.getElementById('tr-options-list');
+            optionsContainer.innerHTML = '';
+
+            const correctLetter = (q.a || '').trim().charAt(0).toUpperCase();
+            const userChoice = userAnswers[index];
+
+            (q.o || []).forEach(opt => {
+                const optLetter = (opt.l || '').trim().toUpperCase();
+                const btn = document.createElement('button');
+                btn.className = 'w-full text-left p-4 rounded-xl border transition flex items-start gap-3 ';
+
+                if (isAnswered) {
+                    btn.disabled = true;
+                    if (optLetter === correctLetter) {
+                        btn.className += 'bg-emerald-500/15 border-emerald-500 text-emerald-900 dark:text-emerald-200 font-semibold shadow-xs';
+                    } else if (optLetter === userChoice) {
+                        btn.className += 'bg-rose-500/15 border-rose-500 text-rose-900 dark:text-rose-200 font-semibold shadow-xs';
+                    } else {
+                        btn.className += 'bg-white/40 dark:bg-slate-900/40 border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 opacity-70';
+                    }
+                } else {
+                    btn.className += 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-brand-500 dark:hover:border-brand-500 hover:bg-brand-50/50 dark:hover:bg-slate-800/60 text-slate-800 dark:text-slate-200 cursor-pointer shadow-xs';
+                    btn.onclick = () => selectTestOption(optLetter);
+                }
+
+                let badgeClass = 'w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold shrink-0 ';
+                if (isAnswered) {
+                    if (optLetter === correctLetter) {
+                        badgeClass += 'bg-emerald-600 text-white';
+                    } else if (optLetter === userChoice) {
+                        badgeClass += 'bg-rose-600 text-white';
+                    } else {
+                        badgeClass += 'bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
+                    }
+                } else {
+                    badgeClass += 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 group-hover:bg-brand-600 group-hover:text-white';
+                }
+
+                btn.innerHTML = `
+                    <span class="${badgeClass}">${optLetter}</span>
+                    <span class="text-xs sm:text-sm leading-relaxed pt-0.5 flex-grow">${opt.t}</span>
+                    ${isAnswered && optLetter === correctLetter ? '<span class="ml-auto text-emerald-600 dark:text-emerald-400 font-bold text-xs shrink-0">✓ Correct</span>' : ''}
+                    ${isAnswered && optLetter === userChoice && optLetter !== correctLetter ? '<span class="ml-auto text-rose-600 dark:text-rose-400 font-bold text-xs shrink-0">✕ Your Choice</span>' : ''}
+                `;
+                optionsContainer.appendChild(btn);
+            });
+
+            // Explanation Box
+            const explBox = document.getElementById('tr-explanation-box');
+            const explText = document.getElementById('tr-explanation-text');
+            if (isAnswered && q.e) {
+                explText.innerHTML = `<p>${q.e}</p>`;
+                explBox.classList.remove('hidden');
+            } else {
+                explBox.classList.add('hidden');
+            }
+
+            // Buttons state
+            document.getElementById('tr-prev-btn').disabled = (index === 0);
+            const nextBtn = document.getElementById('tr-next-btn');
+            if (index === total - 1) {
+                nextBtn.textContent = 'Finish Test ✓';
+                nextBtn.onclick = finishTestRunner;
+            } else {
+                nextBtn.textContent = 'Next →';
+                nextBtn.onclick = nextTestQuestion;
+            }
+
+            updateQuestionPalette();
+        }
+
+        function selectTestOption(letter) {
+            const { index, testId } = currentRunningTest;
+            currentRunningTest.userAnswers[index] = letter;
+
+            // Save attempted test in localStorage
+            try {
+                const att = JSON.parse(localStorage.getItem('medprep_attempted_tests') || '[]');
+                if (testId && !att.includes(testId)) {
+                    att.push(testId);
+                    localStorage.setItem('medprep_attempted_tests', JSON.stringify(att));
+                    updateProgressBadges();
+                }
+            } catch(e) {}
+
+            renderTestRunnerQuestion();
+        }
+
+        function prevTestQuestion() {
+            if (currentRunningTest.index > 0) {
+                currentRunningTest.index--;
+                renderTestRunnerQuestion();
+            }
+        }
+
+        function nextTestQuestion() {
+            if (currentRunningTest.index < currentRunningTest.questions.length - 1) {
+                currentRunningTest.index++;
+                renderTestRunnerQuestion();
+            } else {
+                finishTestRunner();
+            }
+        }
+
+        function jumpToTestQuestion(idx) {
+            if (idx >= 0 && idx < currentRunningTest.questions.length) {
+                currentRunningTest.index = idx;
+                renderTestRunnerQuestion();
+                document.getElementById('tr-palette-container').classList.add('hidden');
+            }
+        }
+
+        function toggleTestQuestionPalette() {
+            const container = document.getElementById('tr-palette-container');
+            container.classList.toggle('hidden');
+        }
+
+        function buildQuestionPalette() {
+            const grid = document.getElementById('tr-palette-grid');
+            if (!grid) return;
+            grid.innerHTML = '';
+
+            const total = currentRunningTest.questions.length;
+            for (let i = 0; i < total; i++) {
+                const btn = document.createElement('button');
+                btn.id = `palette-btn-${i}`;
+                btn.className = 'p-2 rounded-xl text-xs font-mono font-bold transition flex items-center justify-center bg-slate-800 text-slate-400 hover:bg-slate-700 cursor-pointer';
+                btn.textContent = i + 1;
+                btn.onclick = () => jumpToTestQuestion(i);
+                grid.appendChild(btn);
+            }
+        }
+
+        function updateQuestionPalette() {
+            const { questions, index, userAnswers } = currentRunningTest;
+            for (let i = 0; i < questions.length; i++) {
+                const btn = document.getElementById(`palette-btn-${i}`);
+                if (!btn) continue;
+
+                let cls = 'p-2 rounded-xl text-xs font-mono font-bold transition flex items-center justify-center cursor-pointer ';
+                if (i === index) {
+                    cls += 'ring-2 ring-brand-500 ';
+                }
+
+                if (userAnswers.hasOwnProperty(i)) {
+                    const qItem = questions[i];
+                    const isCorrect = userAnswers[i] === (qItem.a || '').trim().charAt(0).toUpperCase();
+                    cls += isCorrect ? 'bg-emerald-600 text-white ' : 'bg-rose-600 text-white ';
+                } else {
+                    cls += 'bg-slate-800 text-slate-400 hover:bg-slate-700 ';
+                }
+
+                btn.className = cls;
+            }
+        }
+
+        function finishTestRunner() {
+            const { questions, userAnswers, title } = currentRunningTest;
+            const total = questions.length;
+            const answeredCount = Object.keys(userAnswers).length;
+
+            let correctCount = 0;
+            Object.keys(userAnswers).forEach(idx => {
+                const qItem = questions[idx];
+                const userChoice = userAnswers[idx];
+                const correctLetter = (qItem.a || '').trim().charAt(0).toUpperCase();
+                if (userChoice === correctLetter) correctCount++;
+            });
+
+            const pct = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+            const msg = `🎉 Test Complete: "${title}"\n\n• Total Questions: ${total}\n• Attempted: ${answeredCount}\n• Correct: ${correctCount}\n• Accuracy: ${pct}%\n\nClick OK to return to the portal or Cancel to review questions.`;
+            if (confirm(msg)) {
+                closeTestRunner();
+            }
+        }
     </script>
     <!-- FULLSCREEN PROTECTED PDF VIEWER MODAL -->
     <div id="pdf-modal" class="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex flex-col hidden" oncontextmenu="return false;">
@@ -2400,6 +2809,102 @@
         <!-- Viewer Iframe -->
         <div class="flex-grow w-full h-full relative bg-slate-900 overflow-hidden select-none" oncontextmenu="return false;">
             <iframe id="pdf-viewer-frame" class="w-full h-full border-none" src="about:blank" oncontextmenu="return false;"></iframe>
+        </div>
+    </div>
+
+    <!-- FULLSCREEN IN-PORTAL TEST RUNNER MODAL -->
+    <div id="test-runner-modal" class="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex flex-col hidden select-none">
+        <!-- Top Navigation Bar -->
+        <div class="h-14 px-4 bg-slate-900 border-b border-slate-800 flex items-center justify-between shrink-0 select-none">
+            <!-- Left Info -->
+            <div class="flex items-center gap-3 min-w-0">
+                <span id="tr-subj-badge" class="px-2.5 py-1 rounded-lg text-xs font-bold uppercase bg-brand-500/20 text-brand-400 border border-brand-500/30 shrink-0">Anatomy</span>
+                <div class="min-w-0">
+                    <h3 id="tr-test-title" class="text-sm font-bold text-white truncate max-w-xs md:max-w-md">1. Gametogenesis</h3>
+                </div>
+            </div>
+
+            <!-- Center Controls: Question count & Score -->
+            <div class="flex items-center gap-3">
+                <span id="tr-q-progress-badge" class="px-3 py-1 rounded-full bg-slate-800 text-xs font-mono font-bold text-slate-200">
+                    Q 1 / 25
+                </span>
+                <span id="tr-score-badge" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-bold bg-emerald-950/80 text-emerald-300 border border-emerald-800/80">
+                    Score: 0 / 0
+                </span>
+            </div>
+
+            <!-- Right Controls -->
+            <div class="flex items-center gap-2">
+                <button onclick="toggleTestQuestionPalette()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5 cursor-pointer" title="Question Palette">
+                    <span>Grid ▦</span>
+                </button>
+                <button onclick="closeTestRunner()" class="px-3.5 py-1.5 rounded-lg bg-red-600/80 hover:bg-red-600 text-white text-xs font-bold transition flex items-center gap-1 cursor-pointer">
+                    ✕ Exit (ESC)
+                </button>
+            </div>
+        </div>
+
+        <!-- Progress Percentage Bar -->
+        <div class="w-full bg-slate-800 h-1">
+            <div id="tr-progress-bar" class="bg-gradient-to-r from-brand-500 to-emerald-400 h-1 transition-all duration-300" style="width: 0%"></div>
+        </div>
+
+        <!-- Main Body: Question & Options View Area -->
+        <div class="flex-grow w-full overflow-y-auto p-4 sm:p-6 lg:p-8 flex justify-center bg-slate-950/40">
+            <div class="w-full max-w-4xl space-y-6">
+                <!-- Question Card -->
+                <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl">
+                    <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
+                        <span id="tr-q-number-label" class="font-bold text-brand-600 dark:text-brand-400 uppercase tracking-wider font-mono">QUESTION 1</span>
+                        <span id="tr-status-pill" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">Not Attempted</span>
+                    </div>
+                    <h2 id="tr-question-text" class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
+                        Question text goes here...
+                    </h2>
+                </div>
+
+                <!-- Options List -->
+                <div id="tr-options-list" class="space-y-3">
+                    <!-- Populated dynamically: Options A, B, C, D -->
+                </div>
+
+                <!-- High Yield Explanation Box (Revealed upon selecting answer) -->
+                <div id="tr-explanation-box" class="p-5 rounded-2xl bg-brand-50/80 dark:bg-slate-900/90 border border-brand-200 dark:border-brand-900/60 shadow-lg hidden">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="w-6 h-6 rounded-lg bg-brand-600 text-white flex items-center justify-center font-bold text-xs">💡</span>
+                        <h4 class="text-sm font-bold text-slate-900 dark:text-white">High-Yield Clinical Explanation</h4>
+                    </div>
+                    <div id="tr-explanation-text" class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed space-y-2">
+                    </div>
+                </div>
+
+                <!-- Question Grid Palette Modal/Drawer Dropdown -->
+                <div id="tr-palette-container" class="hidden p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow-2xl">
+                    <div class="flex items-center justify-between mb-3 text-xs text-slate-400">
+                        <span class="font-bold uppercase tracking-wider">Question Navigation Palette</span>
+                        <button onclick="toggleTestQuestionPalette()" class="text-slate-400 hover:text-white cursor-pointer">✕</button>
+                    </div>
+                    <div id="tr-palette-grid" class="grid grid-cols-5 sm:grid-cols-10 gap-2">
+                        <!-- Populated with question buttons -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Controls Bar -->
+        <div class="h-16 px-4 sm:px-8 bg-slate-900 border-t border-slate-800 flex items-center justify-between shrink-0 select-none">
+            <button id="tr-prev-btn" onclick="prevTestQuestion()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs sm:text-sm font-bold transition flex items-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer">
+                ← Previous
+            </button>
+            <div class="flex items-center gap-2">
+                <button id="tr-finish-btn" onclick="finishTestRunner()" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold shadow-sm transition flex items-center gap-1.5 cursor-pointer">
+                    Finish Test ✓
+                </button>
+            </div>
+            <button id="tr-next-btn" onclick="nextTestQuestion()" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-xs sm:text-sm font-bold shadow-sm transition flex items-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer">
+                Next →
+            </button>
         </div>
     </div>
 
